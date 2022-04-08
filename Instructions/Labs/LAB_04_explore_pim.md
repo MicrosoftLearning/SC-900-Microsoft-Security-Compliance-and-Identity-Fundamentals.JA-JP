@@ -2,12 +2,12 @@
 lab:
   title: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894242"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489237"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>ラボ:Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する
 
@@ -50,9 +50,9 @@ ms.locfileid: "137894242"
 
 2. 左ナビゲーション パネルで、「**ID ガバナンス**」を選択します。
 
-3. 「メイン」ウィンドウで、「**作業の開始**」に下線が引かれていることを確認してから、画面の右中央で、「**ロールの割り当ての管理**」を選択します。  または、左ナビゲーション パネルの Privileged Identity Management の下で、「**Azure AD のロール**」を選択します。
+3. 左ナビゲーション パネルの Privileged Identity Management の下で、「**Azure AD のロール**」を選択します。
 
-4. 「Privileged Identity Management クイック スタート」ウィンドウに移動します。  「**アクセスの管理**」を選択します。
+4. 「Privileged Identity Management クイック スタート」ウィンドウに移動します。  **[管理]** を選択します。
 
 5. 「Contoso ロール」ページに移動します。  ページの上部にある検索バーに「**ユーザー**」と入力します。  検索結果から、「**ユーザー管理者**」を選択します。
 
@@ -85,7 +85,7 @@ ms.locfileid: "137894242"
 19. 画面の右上隅のメール アドレスの隣の「ユーザー」アイコンを選択し、「**サインアウト**」を選択してサインアウトします。次に、すべてのブラウザー ウィンドウを閉じます。
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>タスク 3:タスク 3:このタスクでは、「Diego Siciliani」として Azure portal にサインインして、Azure Active Directory の Privileged Identity Management 機能にアクセスして、ユーザー管理者として割り当てを有効化します。  有効化した後、既存のユーザーに対して、いくつかの構成変更を行います。 注: このタスクでは、直ぐにアクセスして、テキスト メッセージを受信できるモバイル デバイスにアクセスする必要があります。
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>タスク 3:このタスクでは、「Diego Siciliani」として Azure portal にサインインして、Azure Active Directory の Privileged Identity Management 機能にアクセスして、ユーザー管理者として割り当てを有効化します。  有効化した後、既存のユーザーに対して、いくつかの構成変更を行います。 注: このタスクでは、直ぐにアクセスして、テキスト メッセージを受信できるモバイル デバイスにアクセスする必要があります。
 
 1. Microsoft Edge を開きます。  ブラウザーのアドレス バーに、「**portal.azure.com**」と入力します。
 
