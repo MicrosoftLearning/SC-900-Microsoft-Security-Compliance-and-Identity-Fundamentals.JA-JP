@@ -1,13 +1,13 @@
 ---
 lab:
   title: Microsoft 365 のインサイダー リスク管理を詳細に確認する
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
-ms.openlocfilehash: df300750e4be2647bcdddcb42fa1d3a3c7a7c2ec
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
+ms.openlocfilehash: 2fb0e58f92070ce375d27b44bf298a7748db3f40
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893939"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614388"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-365"></a>ラボ:Microsoft 365 のインサイダー リスク管理を詳細に確認する
 
@@ -22,7 +22,7 @@ ms.locfileid: "137893939"
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」 (ZZZZZZ はラボ ホスティング プロバイダーにより提供される一意のテナント ID です) と入力してから、 **[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
     
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、「**はい**」を選択します。 これにより、「Microsoft 365 管理センター」ページにリダイレクトされます。

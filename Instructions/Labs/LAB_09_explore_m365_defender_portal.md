@@ -1,13 +1,13 @@
 ---
 lab:
   title: Microsoft 365 Defender ポータルを詳細に確認する
-  module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
-ms.openlocfilehash: f123071ebcb702532c3c7c8eb76c72d6c4d41047
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894223"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614412"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>ラボ:Microsoft 365 Defender ポータルを詳細に確認する
 
@@ -22,7 +22,7 @@ ms.locfileid: "137894223"
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」 (ZZZZZZ はラボ ホスティング プロバイダーにより提供される一意のテナント ID です) と入力してから、 **[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
    
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、「**はい**」を選択します。 これにより、「Microsoft 365 管理センター」ページにリダイレクトされます。
