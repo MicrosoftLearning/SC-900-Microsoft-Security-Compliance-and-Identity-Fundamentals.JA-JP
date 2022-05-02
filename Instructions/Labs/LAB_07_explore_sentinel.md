@@ -2,150 +2,119 @@
 lab:
   title: Microsoft Sentinel の詳細
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: c5a7ba866c82f15a4f78099326fd93a734caead8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894234"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614340"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>ラボ:Microsoft Sentinel の詳細 
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
-このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。  また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。  この基本設定が完了した後は、Microsoft Sentinel をデータ ソースに接続する手順、組み込みの分析を使用して疑わしい現象に関して通知を受け取る方法について一通り説明し、最後に自動化機能の詳細について説明します。  
+このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。  また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。  この基本的なセットアップが完了したら、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップして、Microsoft Sentinel で使用できるいくつかの主要な機能について簡単に説明します。  
 
-  
+**推定時間**:45-60 分
 
-**推定時間**:30 ～ 45 分
+#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>タスク 1:Microsoft Sentinel インスタンスを作成する
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>タスク 1:Microsoft Sentinel インスタンスを作成する。
+1. ブラウザー タブ「**ホーム - Microsoft Azure**」を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
 
-1. Microsoft Edge を開きます。 アドレス バーに、「**portal.azure.com**」と入力します。
+1. ページ上部の "Microsoft Azure" と表示されている青色のバーの横にある検索ボックスに、「**Microsoft Sentinel**」と入力し、検索結果から **[Microsoft Sentinel]** を選択します。
 
-2. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
-    
-    1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
-    1. サインインしたままにするかどうかを尋ねられたら、「**はい**」を選択します。
+1. [Microsoft Sentinel] ページで、 **[Microsoft Sentinel の作成] を選択します**。
 
-3. Microsoft Azure の隣の画面の左上隅で、「ポータル メニューの表示」アイコン (3 本の水平方向のラインのあるアイコンで、「ハンバーガー」アイコンとも呼ばれます) を選択してから、「**すべてのサービス**」を選択します。  
+1. [ワークスペースへの Microsoft Sentinel の追加] ページで、 **[新しいワークスペースの作成]** を選択します。
 
-4. [サービスのフィルター] ボックスに「**Microsoft Sentinel**」と入力し、一覧から **[Microsoft Sentinel]** を選択します。
-
-5. [Microsoft Sentinel] ページで、 **[Microsoft Sentinel の作成] を選択します**。
-
-6. [ワークスペースへの Microsoft Sentinel の追加] ページで、 **[新しいワークスペースの作成]** を選択します。
-
-7. 「Log Analytics ワークスペースの作成」の「基本」タブに、次の情報を入力します。
+1. 「Log Analytics ワークスペースの作成」の「基本」タブに、次の情報を入力します。
     1. [サブスクリプション]: **[Azure Pass – Sponsorship]\(Azure Pass – スポンサーシップ\)**
-   
-    1. リソース グループ: 「**新規作成**」を選択してから、名前「**SC900-ResourceGroup**」を入力し、その後「**OK**」を選択します。
+    1. リソース グループ: 「**新規作成**」を選択してから、名前「**SC900-Sentinel-RG**」を入力し、その後「**OK**」を選択します。
     1. 名前: **SC900-LogAnalytics-workspace**.
-    1. リージョン: **米国東部** (既定のままにします)
-    1. **[次へ: 価格レベル]** を選択します。
+    1. リージョン: **米国東部** (場所に基づいて別の既定のリージョンが選択されている場合があります)
+    1. **[次へ: タグ >]** を選択します
 
-8. 「価格レベル」については、既定の設定: **[Pay-as-you-go (per GB 2018)]\(従量課金制 (1 GB あたり (2018))\)** のままにして、 **[次へ:タグ >]** を選択できます。
+1. 「タグ」については、空白のままにして、「**Review + Create**」を選択します。
 
-9. 「タグ」については、空白のままにして、「**Review + Create**」を選択します。
+1. 入力した情報を確認してから、「**作成**」を選択します。
 
-10. 入力した情報を確認してから、「**作成**」を選択します。
+1. 1 つのワークスペースが一覧表示されるまでに、1 〜 2 分かかる場合があります。それでも表示されない場合は、「**更新**」を選択してから、「**追加**」を選択します。
 
-11. 新しいワークスペースが一覧表示されない場合は、「**更新**」を選択してから、「**追加**」を選択します。
+1. 新しいワークスペースが追加されると、[Microsoft Sentinel | News & guides]\(Microsoft Sentinel |ニュースとガイド\) ページが表示されます。  「作業開始」ページに 3 つの手順を一覧表示されることに注意してください。
 
-12. 新しいワークスペースが追加されると、[Microsoft Sentinel | News & guides]\(Microsoft Sentinel |ニュースとガイド\) ページが表示されます。  「作業開始」ページに 3 つの手順を一覧表示されることに注意してください。
+1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
-13. 次のタスクで使用するため、このページを開いたままにしておきます。
+#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>タスク 2:Microsoft Sentinel インスタンスが作成されると、Microsoft Sentinel をサポートするためにデプロイするリソースに対して、必要なアクセス権があることを確認する必要があります。  
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel--in-this-task-you-will-go-to-the-access-control-iam-page-for-the-resource-group-that-you-created-with-the-instance-of-microsoft-sentinel-view-the-available-roles-and-assign-yourself-mod-administrator-the-required-role-assigning-the-role-at-the-resource-group-level-will-ensure-the-role-will-apply-to-all-the-resources-that-are-deployed-to-support-microsoft-sentinel"></a>タスク 2:Microsoft Sentinel インスタンスが作成されると、Microsoft Sentinel をサポートするためにデプロイするリソースに対して、必要なアクセス権があることを確認する必要があります。  このタスクでは、Microsoft Sentinel のインスタンスを使用して作成したリソース グループのアクセス制御 (IAM) ページに移動して、利用可能なロールを表示し、自分自身 (MOD 管理者) に必要なロールを割り当てます。 リソース グループ レベルにロールを割り当てることで、Microsoft Sentinel をサポートするためにデプロイされるすべてのリソースにロールが適用されることが保証されます。
+1. 検索ボックスのページ上部にある「Microsoft Azure」と表示されている場所の隣の青色バーに、「**リソース グループ**」と入力し、検索結果で、「**リソース グループ**」を選択します。 リソース グループ レベルにロールを割り当てることで、Microsoft Sentinel をサポートするためにデプロイされるすべてのリソースにロールが適用されることが保証されます。
 
-1. 上に「Microsoft Sentinel」と表示されている [Microsoft Sentinel] ページの左上隅で、 **[すべてのサービス]** を選択します。
+1. [リソース グループ] ページで、Microsoft Sentinel を使用して作成したリソース グループ「**SC900-Sentinel-RG**」を選択します。 
 
-2. 「フィルター サービス」ボックスに、「リソース グループ」を入力し、表示される一覧で、「**リソース グループ**」を選択します。
+1. 「SC900-Sentinel-RG」ページの左ナビゲーション パネルで、「**アクセス制御 (IAM)** 」を選択します。
 
-3. [リソース グループ] ページで、Microsoft Sentinel を使用して作成したリソース グループ「**SC900-ResourceGroup**」を選択します。
+1. 「アクセス制御」ページで、「**自分のアクセスの表示**」を選択します。  MOD 管理者として、現在のロールはサービス管理者です。  これにより、必要なアクセス許可が付与されますが、使用可能な Sentinel 固有のロールを理解することが重要です。  ウィンドウの右上隅の「**X**」を選択して、「MOD 管理者割り当て」ウィンドウを閉じます。
 
-4. 「SC900-ResourceGroup」ページの左ナビゲーション パネルで、「**アクセス制御 (IAM)** 」を選択します。
+    1. 「アクセス制御」ページで、「 **+ 追加**」を選択してから、「**ロール割り当ての追加**」を選択します。
 
-5. 「アクセス制御」ページで、「**自分のアクセスの表示**」を選択します。  現在のロールがセキュリティ管理者であることに注意してください。ウィンドウの右上隅の「**X**」を選択して、「MOD 管理者割り当て」ウィンドウを閉じます。
+    1. 「ロール割り当ての追加」ウィンドウが開きます。  検索ボックスに「**Microsoft Sentinel**」と入力して、Microsoft Sentinel に関連付けられている 4 つのロールを表示します。 
+    1. 一覧表示されている任意のロールから、**表示** を選択してそのロールの詳細を表示します。  ベスト プラクティスとして、ロールに必要な最小特権を割り当てる必要があります。  
 
-6. 「アクセス制御」ページで、「 **+ 追加**」を選択してから、「**ロール割り当ての追加**」を選択します。
+    1. ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。
 
-7. 「ロール割り当ての追加」ウィンドウが開きます。  「ロール フィールドの選択」で、ドロップダウン矢印を選択して、利用可能なロールを表示します。  このラボでは、「**所有者**」を選択します。  注:ベスト プラクティスとして、ロールに必要な最小特権を割り当てる必要があります。  参照として、Microsoft Sentinel のアクセス許可を確認してください (https://docs.microsoft.com/en-us/azure/sentinel/roles )。
+1. アクセスの制御ページから、ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。
 
-8. 表示されるユーザーの一覧で、「**MOD 管理者**」を選択します。
+#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>タスク 3:このタスクでは、Microsoft Sentinel をデータ ソースに接続し、データの収集を開始するプロセスについて一通り説明します。
 
-9. ページの下部にある **[保存]** を選択します。
+1. ページ上部の "Microsoft Azure" と表示されている青色のバーの横にある検索ボックスに、「**Microsoft Sentinel**」と入力し、検索結果から **[Microsoft Sentinel]** を選択します。
 
-10. 「アクセス制御」ページで、「**自分のアクセスの表示**」を選択し、ロールが追加されたことを確認してから、ウィンドウの右上隅で、「**X**」を選択してウィンドウを閉じます。
+1. 「Microsoft Sentinel」ページで、Microsoft Sentinel のインスタンスを使用して作成したワークスペース「**SC900-LogAnalytics-workspace**」を選択します。
 
-11. 上部にリソース グループを表示するページの左上隅で、「**すべてのサービス**」を選択して、Azure の「すべてのサービス」ページに戻ります。
+1. Microsoft Sentinel の最初の手順では、データを収集できるようにします。 左ナビゲーション パネルで、構成の下に一覧表示される「**データ コネクタ**」を選択します。
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data-note-it-can-take-a-bit-time-to-show-the-connected-status-of-a-connector-30-minutes-depending-on-the-tenant"></a>タスク 3:このタスクでは、Microsoft Sentinel をデータ ソースに接続し、データの収集を開始するプロセスについて一通り説明します。 注: コネクタの接続状態を表示するのに少し時間がかかる場合があります (テナントに応じて、約 30 分)。
+1. 「データ コネクタ」ページで、「メイン」ウィンドウで下にスクロールして、利用可能なコネクタの広範な一覧を表示します。 [データ コネクタ] ページの検索ボックスに「**Office 365**」と入力した後、一覧から **[Office 365]** を選択します。
 
-1. [すべてのサービス] ページの [サービスのフィルター] ボックスに「**Microsoft Sentinel**」と入力し、結果の一覧から **[Microsoft Sentinel]** を選択します。 
+1. Office 365 コネクタ ウィンドウが開きます。  **[Open connector page]\(コネクタ ページを開く\)** を選択します。
 
-2. 「Microsoft Sentinel」ページで、Microsoft Sentinel のインスタンスを使用して作成したワークスペース「**SC900-LogAnalytics-workspace**」を選択します。
+1. Office 365 コネクタ ページで、ウィンドウの左側にある [説明] を確認します。
 
-3. Microsoft Sentinel の最初の手順では、データを収集できるようにします。 左ナビゲーション パネルで、構成の下に一覧表示される「**データ コネクタ**」を選択します。
+1. メイン ウィンドウの [手順] タブには、Microsoft Sentinel を Office 365 と統合するための前提条件が表示されています。これらがすべて緑色のチェックマークを表示している必要があります。   構成で、 **[Exchange]** と **[SharePoint]** を選択し、[変更の適用] を選択します。  ほぼ瞬時に、ウィンドウの左側に接続済み状態が表示されます。
 
-4. 「データ コネクタ」ページで、「メイン」ウィンドウで下にスクロールして、利用可能なコネクタの広範な一覧を表示します。 「データ コネクタ」ページの「検索」ボックスに、「**Azure**」と入力して、一覧から「**Azure Active Directory**」を選択します。
+1. ウィンドウの右上隅にある **[X]** を選択してウィンドウを閉じ、データ コネクタ ページに戻ります。
 
-5. 「Azure Active Directory コネクタ」ウィンドウが開きます。  **[Open connector page]\(コネクタ ページを開く\)** を選択します。
+1. [データ コネクタ] ページの上部に [1 接続中] と表示されるはずです。これは、現在あなたが Office 365 に接続していることを反映しています。 これが表示されない場合は、 **[最新の情報に更新]** を選択します。 このページが更新されるまでに数分かかる場合があります。
 
-6. 「Azure Active Directory コネクタ」ページで、説明を確認し、ワークブック、クエリ、分析規則テンプレートを含む関連コンテンツをメモします。  
+1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
-7. [メイン] ウィンドウの [手順] タブには、Azure Sentinel を Azure Active Directory に統合するための前提条件が表示されます。   構成の下で、「**サインイン ログ**」を選択してから、「変更の適用」を選択します (複数のコネクタを選択できます)。
+#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>タスク 4:このタスクでは、データの視覚化と監視を行うために、Office 365 用のブックを設定するプロセスについて説明します。
 
-8. 「次のステップ」タブで、推奨されるワークブックの一覧に注意してください。   「推奨されるワークブック」の下で、「**Azure サインイン ログ**」を選択します (追加ワークブックを選択できます)。
+1. 左ナビゲーション パネルで、「**ワークブック**」を選択します。
 
-9. 「テンプレート」タブが選択された状態 (下線) の「ワークブック」ページで、「**Azure サインイン ログ**」を選択します。 
+1. 検索ボックスに「Office 365」と入力し、 **[Office 365]** を選択します。
 
-10. 開く「Azure AD サインイン ログ」ウィンドウで、説明を確認し、「**テンプレートの表示**」を選択します。  画面に右上隅の「**X**」を選択して、テンプレートを終了します。  ページの下部で、「**保存**」を選択してから、「**OK**」を選択して、ワークブックを既定の場所に保存します。
+1. 画面の右側に表示されるウィンドウで説明を確認した後、画面の下部にある **[保存]** を選択し、 **[OK]** を選択してブックを既定の場所に保存します。  ここで **[保存されたブックの表示]** を選択します。
 
-11. [ブック] ページの左上隅の、"ブック" と表示されている場所の上にある、 **[Microsoft Sentinel]** を選択します。 これにより、Microsoft Sentinel の [データ コネクタ] ページに戻ります。
+1. Office 365 の [ブック] ページが開きます。  **[操作: 設定解除]** の横にあるドロップダウンの矢印を選択し、 **[すべて]** を選択します。  次に、 **[ユーザー: クエリの保留中]** の横にあるドロップダウンの矢印を選択し、 **[すべて]** を選択します。  **保存 (ディスク) アイコン** を選択します。 ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。 データがブックに表示されるまでに数分かかることがあるため、後でブックに戻ってきます。
 
-12. 「データ コネクタ」ページの上部に「1 接続中」と表示されるはずです。これは、現在、あなたが Azure Active Directory に接続していることを反映しています。
+1. [ブック] ページの左上隅の、"ブック" と表示されている場所の上にある、 **[Microsoft Sentinel]** を選択します。 これで、[概要] ページに戻ります。
 
-13. 左ナビゲーション パネルで、「**ワークブック**」を選択します。
+#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>タスク 5:このタスクでは、Sentinel で使用できるオプションの一部について説明します。
 
-14. 「ワークブック」ページで、「検索」ボックスの上に表示される「**自分のワークブック**」タブを選択します。  保存したばかりのワークブックが一覧表示され、データを確認および監視するために利用できます。
+1. 左側のナビゲーション ウィンドウから、 **[ハンティング]** を選択します。  選択されている (下線付き) **クエリ** タブで、一覧から任意のクエリを選択します。  クエリが選択されたら、そのクエリに関して表示される情報 (クエリのコードを含む) と、クエリを実行して結果を表示するためのオプションに注目してください。  何も選択しないでください。
 
-15. 次のタスクで使用するため、このページを開いたままにしておきます。
+1. 左側のナビゲーション ウィンドウから、 **[MITRE ATT&CK]** を選択します。  MITRE ATT&CK は、攻撃者がよく使う戦術と手法の、一般公開されているナレッジ ベースです。 Microsoft Sentinel を使うと、MITRE ATT&CK® フレームワークの戦術と手法に基づいて、ご自分のワークスペース内で既にアクティブになっている検出と構成可能な検出を確認し、組織のセキュリティ カバレッジを把握することができます。  マトリックスから任意のセルを選択し、画面の右側にある情報に注目してください。  
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-using-a-built-in-analytics-rule-template-to-create-a-rule-to-get-notified-when-something-suspicious-occurs"></a>タスク 4:このタスクでは、疑わしいことが発生したときに通知するための規則を作成する組み込み規則テンプレートを使用するプロセスを詳しく説明します。
+1. 左側のナビゲーション ウィンドウから、 **[コミュニティ]** を選択します。 Microsoft のセキュリティ アナリストは、新しいブック、プレイブック、ハンティング クエリなどを絶えず作成および追加し、お客様の環境で使用できるようにコミュニティに投稿しています。 プライベート コミュニティの GitHub リポジトリからサンプル コンテンツをダウンロードして、Microsoft Sentinel 用のカスタム ブック、捜索クエリ、ノートブック、プレイブックを作成できます。  **[Onboard community content]\(コミュニティのコンテンツをオンボードする\)** を選択します。  GitHub リポジトリへの新しいタブが開き、シナリオを有効にするためのコンテンツをダウンロードできます。  ブラウザーで Azure のタブに戻ります。
 
-1. 左ナビゲーション パネルで、「**分析**」を選択します。
+1. 左ナビゲーション パネルで、「**分析**」を選択します。  **[Advanced Multistage Attack Detection]\(高度なマルチステージ攻撃の検出\)** の一覧から最初の項目を選択します。  詳細情報に注目してください。  Microsoft Sentinel では、スケーラブルな機械学習アルゴリズムに基づく相関関係エンジンである Fusion を使用して、キル チェーンのさまざまな段階で観察される異常な動作と疑わしいアクティビティの組み合わせを特定することによって、マルチステージ攻撃 (永続的脅威とも呼ばれます) を自動的に検出します。 これらの検出を基に、Microsoft Sentinel では、Microsoft Sentinel 以外では検出が困難であろうインシデントが生成されます。
 
-2. 「分析」ページには、アクティブな規則 (既定で高度なマルチステージ攻撃の検出が有効になっています) が表示され、規則テンプレートにアクセスすることもできます。  「**規則テンプレート**」タブを選択します。利用可能なテンプレートの一覧と一覧をフィルター処理するためのさまざまな方法に注意してください。  Microsoft Sentinel ワークスペース内で組み込み分析アラートを使用すると、疑わしい現象が発生したときに通知を受け取ることができます。
+1. 左ナビゲーション パネルで、「**自動化**」を選択します。  ここでは、単純に自動化ルールを作成したり、既存のプレイブックと統合したり、新しいプレイブックを作成したりできます。  **[+ 作成]** を選択し、 **[Automation rule]\(自動化ルール\)** を選択します。  画面の右側に表示されるウィンドウと、条件とアクションを作成するために使用できるオプションに注目してください。  画面の下部で、 **[キャンセル]** を選択します。
 
-3. 「検索」バーに、「**Azure portal**」と入力します。  「**Azure portal へのログインに失敗しました**」を選択します。  
+1. 左ナビゲーション パネルで、「**ワークブック**」を選択します。 「ワークブック」ページで、「検索」ボックスの上に表示される「**自分のワークブック**」タブを選択します。  以前に保存したワークブックが表示され、データを確認および監視するために利用できます。  **[Office 365]** を選択した後、画面の右側に表示されるウィンドウから、 **[保存されたブックの表示]** を選択します。  Office 365 ワークロードに関連する視覚化に注目してください。  
 
-4. 開くウィンドウで、説明を読み、テンプレートに関連する情報を確認します。  ページの下部にある「**規則の作成**」を選択します。
+1. ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。
 
-5. 分析ルール ウィザードで、情報を確認してから、 **[次へ:ルールのロジックを設定 >]** を選択します。
+1. ウィンドウの左上隅にある青いバーのすぐ下にある **[ホーム]** を選択して、Azure portal のホーム ページに戻ります。
 
-6. 「ルール ロジックの設定」ページでは、新しい分析規則のロジックを定義します。 テンプレートには、いくつかロジックと事前に定義された設定がすでに提供されています。  ページをスクロールして、利用可能な設定を確認します。  既定値のままにします。 **[次へ: インシデントの設定 (プレビュー)>]** を選択します。
-
-7. [インシデントの設定] では、Microsoft Sentinel のアラートを一緒に考慮する必要のあるインシデントにグループ化できます。 この分析規則によりトリガーされるアラートがインシデントを生成するかどうかを設定できます。  既定の設定のままにして、 **[次へ:自動応答>]** を選択します。
-
-8. 「自動応答」タブでは、応答を自動化するためにプレイブックを追加する方法に注意してください。  同様に、インシデントの自動化規則を作成できます。  「インシデントの自動化」の下で、「 **+ 追加**」を選択します。  新しい自動化規則を作成するためのウィンドウが開きます。  このページで作成される自動化規則は、分析規則によりトリガーされます。規則に条件を追加したり、アクションを設定したりできることに注意してください。   「**キャンセル**」を選択して、ウィンドウを終了します
-
-9. **[次へ: レビュー>]** を選択して、選択したテンプレートに基づいて、そのルールに関連するすべての詳細を確認します。 この時点では、「**作成**」を選択して規則を作成するか、ページの右上隅で、「**X**」を選択して、規則を選択せずに終了することを選択できます。
-
-10. 次のタスクで使用するため、このページを開いたままにしておきます。
-
-#### <a name="task-5--in-the-previous-task-you-created-an-analytics-rule-to-be-alerted-of-suspicious-activities--embedded-in-that-wizard-is-the-option-to-automate-the-response-to-an-incident-based-on-the-specific-rule--but-you-can-also-create-automation-rules-by-going-directly-to-the-automation-configuration-option"></a>タスク 5:前のタスクでは、疑わしいアクティビティを警告するための分析規則を作成しました。  そのウィザードに埋め込まれたオプションは、特定の規則に基づいて、インシデントに対する応答を自動化します。  しかし、自動化構成オプションに直接移動して、自動化規則を作成することもできます。
-
-1. 左ナビゲーション パネルで、「**自動化**」を選択します。  
-
-2. **[+ 作成]** を選択します。 ドロップダウンで、新しいプレイブックの追加、または新しい規則の追加を選択する方法に注意してください。  **[新しいルールの追加]** を選択します。  
-
-3. 新しい自動化規則を作成するためのウィンドウが開きます。  ルールに条件を追加したり、アクションを設定したりできることに注意してください。  唯一の違いは、最初の条件がこの自動化規則を適用する分析規則に関連することです。  これは、前のタスクでは、特定の規則に対して、自動化を構成していため、グレイアウトされていました。  「**キャンセル**」を選択して、「新しい自動化規則の作成」ウィンドウを終了します。
-
-4. 次のタスクで使用するため、このページを開いたままにしておきます。
-
-
-#### <a name="task-6--delete-microsoft-sentinel-resource-group--microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-features-of-capabilities-of-microsoft-sentinel"></a>タスク 6:Microsoft Sentinel のリソース グループを削除します。  Microsoft Sentinel の課金は、分析のために Microsoft Sentinel に取り込まれたデータの量に基づいて行われます。 このラボの結果として取り込まれるデータの量は最小限ですが、Microsoft Sentinel の機能を確認した後は、Microsoft Sentinel のリソース グループを削除することをお勧めします。
+#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>タスク 6:Microsoft Sentinel の課金は、分析のために Microsoft Sentinel に取り込まれたデータの量に基づいて行われます。 このラボの結果として取り込まれるデータの量は最小限ですが、Microsoft Sentinel の機能を確認した後は、Microsoft Sentinel リソース グループを削除することをお勧めします。
 
 1. 上に「Microsoft Sentinel」と表示されている [Microsoft Sentinel] ページの左上隅で、 **[すべてのサービス]** を選択します。
 
@@ -157,7 +126,6 @@ ms.locfileid: "137894234"
 
 5. リソース グループが削除されたことを確認し、「ブラウザー」ページを閉じます。 
 
-
 #### <a name="review"></a>確認
 
-このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明しました。  また、Microsoft Sentinel のインスタンスに関連付けられているリソースへのアクセスを確保するために、アクセス許可を設定しました。  Microsoft Sentinel インスタンスが作成された状態で、Microsoft Sentinel をデータ ソースに接続する手順、組み込みの分析を使用して疑わしい現象に関して通知を受け取る方法について一通り説明し、最後に自動化機能の詳細について説明しました。 作成した Microsoft Sentinel のインスタンスに関連付けられたリソース グループを削除して、ラボを締めくくりました。
+このデモでは、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップし、Microsoft Sentinel で使用できるいくつかのオプションについて説明しました。

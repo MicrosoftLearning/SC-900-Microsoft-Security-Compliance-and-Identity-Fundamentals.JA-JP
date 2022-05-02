@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Microsoft 365 の機密ラベル
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894306"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614232"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>デモ:Microsoft 365 の機密ラベル
 
@@ -32,7 +32,7 @@ ms.locfileid: "137894306"
 
 1. 左ナビゲーション パネルで、「ソリューション」の下の「**情報保護**」を選択します。
 
-1. 黄色の情報ボックスは、暗号化された機密ラベルが適用され、OneDrive と SharePoint に保存されている Office オンライン ファイルのコンテンツを処理する機能が組織で有効になっていないことを示します。  「今すぐ有効にする」を選択します。  これを行うと、設定がシステム全体に伝播するのに遅延が生じる可能性があります。
+1. 黄色の情報ボックスは、暗号化された秘密度ラベルが適用され、OneDrive と SharePoint に保存されている Office オンライン ファイルのコンテンツを処理する機能が、組織で有効になっていないことを示しています。  「今すぐ有効にする」を選択します。  これを行うと、設定がシステム全体に伝播するのに遅延が生じる可能性があります。
 
 1. ページ上部の「**ラベル**」タブが選択されている (下線が引かれている) ことを確認します。
 
