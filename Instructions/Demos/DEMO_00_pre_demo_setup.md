@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: デモのセットアップ
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893931"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557256"
 ---
 # <a name="pre-demo-setup"></a>デモ前のセットアップ
 
-### <a name="setup-part-1---redeem-azure-pass"></a>セットアップ パート 1 - Azure Pass を使用する
+## <a name="setup-part-1---redeem-azure-pass"></a>セットアップ パート 1 - Azure Pass を使用する
+
 このセットアップ タスクでは、Microsoft 365 テナントと同じ資格情報を使用して Azure パスを使用します。  これにより、Microsoft 365 と Azure の間をよりシームレスに移動できます。
 
 1. ブラウザー ウィンドウを開いている場合は、すべてのブラウザーを閉じることを推奨します。
 
-1. Microsoft Edge アイコンを右クリックして、「**新しい InPrivate ウィンドウ**」を選択して、新しい In-Private ブラウザー セッションを開始します。 その他 
+1. Microsoft Edge アイコンを右クリックして、「**新しい InPrivate ウィンドウ**」を選択して、新しい In-Private ブラウザー セッションを開始します。
 
 1. アドレス バーに、「**www.microsoftazurepass.com**」と入力します。  
 
@@ -33,12 +34,13 @@ ms.locfileid: "137893931"
 1. 「Azure portal ホーム」ページのブラウザー タブを開いたままにして、次のデモに進みます。
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>セットアップ パート 2 - Microsoft 365 監査ログを有効化する
+
 このセットアップ タスクでは、Microsoft 365 の監査ログ機能を有効化します。  ドキュメントには、監査ログは既定で有効になると記載されていますが、ほとんどのラボ テナントではこの機能を有効にしておらず、また、これを有効にするには数時間かかる場合があります。  この機能を有効化し、Microsoft 365 が、ポリシーや分析の洞察で識別されたユーザーの洞察やアクティビティに対して監査ログを使用するようにすることは有益です。
 
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」 (ZZZZZZ はラボ ホスティング プロバイダーにより提供される一意のテナント ID です) と入力してから、 **[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、「**はい**」を選択します。 これにより、「Microsoft 365 管理センター」ページにリダイレクトされます。
 
@@ -59,5 +61,3 @@ ms.locfileid: "137893931"
 ### <a name="review"></a>確認
 
 このセットアップでは、Microsoft 365 テナントと同じ資格情報を使用して Azure パスを使用しました。  また、Microsoft 365 の監査ログ機能を有効化しました。
-
-

@@ -2,12 +2,12 @@
 lab:
   title: Azure Active Directory の詳細を確認する
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894255"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557292"
 ---
 # <a name="lab-explore-azure-active-directory"></a>ラボ:Azure Active Directory の詳細を確認する
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894255"
 
 このラボでは、Azure Active Directory にアクセスします。  さらに、ユーザーを作成し、ライセンスの追加を含む、さまざまな設定を構成します。  
 
-
-
 **推定時間**:10 ～ 15 分
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>タスク 1:Microsoft 365 のサブスクライバーの方であれば、Azure AD を既にお使いです。  このタスクでは、Microsoft 365 管理者ポータルと Azure portal を通して、Azure AD にアクセスします。
+### <a name="task-1"></a>タスク 1
+
+Microsoft 365 のサブスクライバーの方であれば、Azure AD を既にお使いです。  このタスクでは、Microsoft 365 管理者ポータルと Azure portal を通して、Azure AD にアクセスします。
 
 1. Microsoft Edge を開きます。
 
 2. アドレス バーに、「**admin.microsoft.com**」と入力して、Microsoft 365 管理センターにアクセスします。
 
-3. 管理者の資格情報でサインインします。 
+3. 管理者の資格情報でサインインします。
     1. [サインイン] ウィンドウで、「 **admin@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、「**はい**」を選択します。
@@ -44,8 +44,9 @@ ms.locfileid: "137894255"
 
 10. 次のタスクのために、このブラウザー ページを開いたままにしておきます。
 
+### <a name="task-2"></a>タスク 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>タスク 2:このタスクでは、Azure Active Directory で新しいユーザーを作成する方法を学習し、ユーザー レベルで管理できるいくつかのサービスの詳細を確認します。
+このタスクでは、Azure Active Directory で新しいユーザーを作成する方法を学習し、ユーザー レベルで管理できるいくつかのサービスの詳細を確認します。
 
 1. ブラウザーで開いている「Contoso – Microsoft Azure」タブに移動します。 タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、「Azure Active Directory」を選択します。  Azure portal に管理者としてログインする必要があります。そうでない場合は、もう一度サインインしてください。
 
@@ -109,7 +110,9 @@ ms.locfileid: "137894255"
 
 20. 画面の右上隅のメールアドレスの隣の「ユーザー」アイコンをクリックして、すべての「ブラウザー」タブからサインアウトします。 次に、すべてのブラウザー ウィンドウを閉じます。
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>タスク 3:このタスクでは、初めて「Sara Perez」としてサインインします。
+### <a name="task-3"></a>タスク 3
+
+このタスクでは、初めて「Sara Perez」としてサインインします。
 
 1. Microsoft Edge を開きます。
 
@@ -127,9 +130,6 @@ ms.locfileid: "137894255"
 
 8. 画面の右上隅のメールアドレスの隣の「ユーザー」アイコンをクリックして、すべての「ブラウザー」タブから **サインアウト** します。 次に、すべてのブラウザー ウィンドウを閉じます。
 
+### <a name="review"></a>確認
 
-
-#### <a name="review"></a>確認
 このラボでは、Azure AD の初期探索を開始しました。 Microsoft 365 へのサブスクライバーは、自動的に Azure AD を使用するため、Microsoft 365 管理者ポータルまたは Azure portal を通して、Azure AD の機能やサービスにアクセスしました。  どのアプローチをとっても、同じ場所に移動します。  また、新しいユーザーの作成プロセスを確認し、ユーザーを割り当てることができるグループ、ロールの可用性、ユーザー ライセンスの割り当てなど、構成できるさまざまな設定について確認しました。
-
-

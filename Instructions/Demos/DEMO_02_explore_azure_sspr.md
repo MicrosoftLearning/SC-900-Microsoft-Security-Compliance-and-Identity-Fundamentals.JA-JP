@@ -2,16 +2,16 @@
 Demo:
   title: Azure Active Directory のセルフサービス パスワード リセット
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894383"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557220"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>デモ:Azure Active Directory のセルフサービス パスワード リセット (SSPR)
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
 
 このデモでは、セルフサービス パスワード リセットの有効化に関連するさまざまな設定について詳しく説明します。
 
@@ -40,7 +40,6 @@ ms.locfileid: "137894383"
 
 1. 次のデモのために、このブラウザー ページを開いたままにしておきます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
-このデモでは、セルフサービス パスワード リセットに関連する設定を表示しました。 
-
+このデモでは、セルフサービス パスワード リセットに関連する設定を表示しました。

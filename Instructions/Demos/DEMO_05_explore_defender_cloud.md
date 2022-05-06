@@ -2,16 +2,16 @@
 Demo:
   title: Microsoft Defender for Cloud'
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 1548f7ff825d472eeb53697342abf8cd48ad084f
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: b9cf202b9aef7f700b08c1dd6f55444d328fac9a
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894335"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557340"
 ---
 # <a name="demo-microsoft-defender-for-cloud"></a>デモ:Microsoft Defender for Cloud
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
 
 このデモでは、Microsoft Defender for Cloud について一通り確認し、Azure Secure Score を使用して、組織のセキュリティ体制を改善する方法について説明します。
 
@@ -54,4 +54,3 @@ ms.locfileid: "137894335"
 ## <a name="review"></a>確認
 
 このデモでは、Microsoft Defender for Cloud について一通り確認し、Azure Secure Score を使用して、組織のセキュリティ体制を改善する方法について説明しました。
-
