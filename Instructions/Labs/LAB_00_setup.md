@@ -1,27 +1,28 @@
 ---
 lab:
   title: セットアップ
-ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489249"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557310"
 ---
 # <a name="lab-setup"></a>ラボ:セットアップ
 
-### <a name="lab-scenario"></a>ラボのシナリオ
+## <a name="lab-scenario"></a>ラボのシナリオ
 
 このラボでは、Microsoft 365 テナントと同じ資格情報を使用して Azure Pass を使用します。  これにより、Microsoft 365 と Azure の間をシームレスに移動できます。 セットアップの一部として、Microsoft 365 テナントで監査ログ機能を有効にします。これは、有効になるまで少し時間がかかります。 Microsoft 365 は、ポリシーや分析の洞察で識別されたユーザーの洞察やアクティビティに対して監査ログを使用します。
 
 **推定時間**:5 ～ 10 分
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>セットアップ パート 1 - Azure Pass を使用する
+### <a name="setup-part-1---redeem-azure-pass"></a>セットアップ パート 1 - Azure Pass を使用する
+
 このセットアップ タスクでは、Microsoft 365 テナントと同じ資格情報を使用して Azure パスを使用します。  これにより、Microsoft 365 と Azure の間をよりシームレスに移動できます。
 
 1. ブラウザー ウィンドウを開いている場合は、すべてのブラウザーを閉じることを推奨します。
 
-1. Microsoft Edge アイコンを右クリックして、「**新しい InPrivate ウィンドウ**」を選択して、新しい In-Private ブラウザー セッションを開始します。 その他 
+1. Microsoft Edge アイコンを右クリックして、「**新しい InPrivate ウィンドウ**」を選択して、新しい In-Private ブラウザー セッションを開始します。
 
 1. アドレス バーに、「**www.microsoftazurepass.com**」と入力します。  
 
@@ -38,7 +39,8 @@ ms.locfileid: "141489249"
 
 1. 「Azure portal ホーム」ページのブラウザー タブを開いたままにして、次のデモに進みます。
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>セットアップ パート 2 - Microsoft 365 監査ログを有効化する
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>セットアップ パート 2 - Microsoft 365 監査ログを有効化する
+
 このセットアップ タスクでは、Microsoft 365 の監査ログ機能を有効化します。  ドキュメントには、監査ログは既定で有効になると記載されていますが、ほとんどのラボ テナントではこの機能を有効にしておらず、また、これを有効にするには数時間かかる場合があります。  この機能を有効化し、Microsoft 365 が、ポリシーや分析の洞察で識別されたユーザーの洞察やアクティビティに対して監査ログを使用するようにすることは有益です。
 
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
@@ -60,6 +62,6 @@ ms.locfileid: "141489249"
 
 1. 左ナビゲーション パネルで、「**ホーム**」を選択して、Microsoft 365 コンプライアンス センターの「ホーム」ページに戻ります。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
 このセットアップでは、Microsoft 365 テナントと同じ資格情報を使用して Azure パスを使用しました。  また、Microsoft 365 の監査ログ機能を有効化しました。
