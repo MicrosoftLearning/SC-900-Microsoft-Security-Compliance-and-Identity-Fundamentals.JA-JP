@@ -2,21 +2,24 @@
 lab:
   title: 条件付きアクセスを使った Azure AD のアクセス管理について調べる
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489260"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557279"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>ラボ:Azure AD の条件付きアクセス管理の詳細を確認する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
+
 このラボでは、管理者およびユーザーの視点から、条件付きアクセス MFA の詳細を確認します。  管理者として、ユーザーがクラウドベースの Microsoft Azure Management アプリケーションにアクセスするとき、Multi-Factor Authentication の実施を要求するポリシーを作成します。  ユーザーの視点から、MFA に登録するためのプロセスを含む、条件付きアクセス ポリシーの影響をから、
 
 **推定時間**:10 ～ 15 分
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>タスク 1:このタスクでは、管理者として、ユーザー「Debra Berger」のパスワードをリセットします。  この手順は、後続のタスクで、ユーザーとして最初にサインインできるために必要です。
+### <a name="task-1"></a>タスク 1
+
+このタスクでは、管理者として、ユーザー「Debra Berger」のパスワードをリセットします。  この手順は、後続のタスクで、ユーザーとして最初にサインインできるために必要です。
 
 1. Microsoft Edge を開きます。  アドレス バーに、「**portal.azure.com**」と入力します。
 
@@ -41,8 +44,9 @@ ms.locfileid: "141489260"
 
 10. このウィンドウを開いたままにしておきます。
 
+### <a name="task-2"></a>タスク 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>タスク 2:このタスクでは、Azure AD で条件付きアクセス ポリシーを作成するプロセスを実行します。
+このタスクでは、Azure AD で条件付きアクセス ポリシーを作成するプロセスを実行します。
 
 1. 「Contoso – Microsoft Azure」というラベルのついたブラウザー タブを開きます。   ブラウザー タブを以前に閉じた場合は、Microsoft Edge を開き、アドレス バーに「portal.azure.com」と入力して、管理者の資格情報でサインインしてから、「Azure Active Directory」を選択します。  
 
@@ -60,7 +64,7 @@ ms.locfileid: "141489260"
 
 8. 「**ユーザーとグループの選択**」のオプションを選択し、「**ユーザーとグループ**」を選択します。  ユーザーとグループを選択するためのウィンドウが表示されます。  
 
-9. 「検索」バーに、「**Debra**」と入力します。  「検索」バーの下で、「**Debra Berger**」を選択してから、ページの下部で、「**選択**」ボタンを選択します。  通常はグループ内のユーザーにポリシーを割り当てることに注意してください。  このラボでは便宜上、特定のユーザーにポリシーを割り当てます。 
+9. 「検索」バーに、「**Debra**」と入力します。  「検索」バーの下で、「**Debra Berger**」を選択してから、ページの下部で、「**選択**」ボタンを選択します。  通常はグループ内のユーザーにポリシーを割り当てることに注意してください。  このラボでは便宜上、特定のユーザーにポリシーを割り当てます。
 
 10. 「クラウド アプリまたはアクション」で、「**クラウド アプリまたはアクションが選択されていません**」を選択します。
 
@@ -80,9 +84,11 @@ ms.locfileid: "141489260"
 
 18. Azure からサインアウトし、ブラウザー ウィンドウを閉じます。
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>タスク 3:このタスクでは、ユーザー「Debra Berger」の視点から、条件付きアクセス ポリシーの影響を確認します。 まず条件付きアクセス ポリシーに含まれないアプリケーションにサインインして開始します。  次に、条件付きアクセス ポリシーに含まれるアプリケーションに対するプロセスを繰り返します。  ユーザーが Microsoft Azure Management アプリケーションにアクセスするとき、MFA の実施を要求するポリシーを思い出してください。  MFA を使用するには、最初にモバイル デバイスまたは認証アプリケーションにコードを送信するなど、MFA に使用する認証方法を登録する必要があります。
+### <a name="task-3"></a>タスク 3
 
-1. Microsoft Edge を開きます。  ブラウザーのアドレス バーに、「 **https://login.microsoftonline.com/** 」と入力します。
+このタスクでは、ユーザー「Debra Berger」の視点から、条件付きアクセス ポリシーの影響を確認します。 まず条件付きアクセス ポリシーに含まれないアプリケーションにサインインして開始します。  次に、条件付きアクセス ポリシーに含まれるアプリケーションに対するプロセスを繰り返します。  ユーザーが Microsoft Azure Management アプリケーションにアクセスするとき、MFA の実施を要求するポリシーを思い出してください。  MFA を使用するには、最初にモバイル デバイスまたは認証アプリケーションにコードを送信するなど、MFA に使用する認証方法を登録する必要があります。
+
+1. Microsoft Edge を開きます。  ブラウザーのアドレス バーに、「**login.microsoftonline.com/** 」と入力します。
 
 1. 「Debra Burger」としてサインインします。
     1. [サインイン] ウィンドウで、「 **DebraB@WWLxZZZZZZ.onmicrosoft.com** 」と入力してから、 **[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
@@ -92,7 +98,7 @@ ms.locfileid: "141489260"
 
 1. Microsoft 365 アカウントへのログインに成功するはずです。  このアプリケーションの場合、MFA はポリシーの一部ではないため必要ありません。
 
-1. 次に、MFA の基準を満たすアプリケーションへのサインインを試みます。  Microsoft Edge を開き、アドレス バーに「 https://portal.azure.com 」と入力します。
+1. 次に、MFA の基準を満たすアプリケーションへのサインインを試みます。  Microsoft Edge を開き、アドレス バーに「**portal.azure.com**」と入力します。
 
 1. その他の情報が必要であることを示すウィンドウが表示されます。  **[次へ]** を選択します。  これが、条件付きアクセス ポリシーで識別されたクライアント アプリへの初めてのアクセスであるため、MFA 登録プロセスの開始であることに注意してください。  この登録プロセスは、1 回だけ行う必要があります。   ユーザーに登録プロセスを実施させるための代替方法は、管理者が使用する認証方法を構成する方法です。
 
@@ -110,5 +116,6 @@ ms.locfileid: "141489260"
 
 1. 画面の右上隅のメール アドレスの隣の「ユーザー」アイコンを選択し、「サインアウト」を選択してサインアウトします。次に、すべてのブラウザー ウィンドウを閉じます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
+
 このラボでは、ユーザーが Microsoft Azure Management クラウド アプリケーションにアクセスするとき、MFA の実施を要求する条件付きアクセス ポリシーをセットアップするプロセスを行いました。  次に、ユーザーとして MFA の登録プロセスを行い、Azure portal にアクセスするとき、MFA を使用することを要求する条件付きアクセス ポリシーの影響を確認しました。

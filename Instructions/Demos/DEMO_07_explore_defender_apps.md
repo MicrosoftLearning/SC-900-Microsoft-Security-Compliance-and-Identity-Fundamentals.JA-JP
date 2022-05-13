@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894327"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557173"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>デモ:Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
+
 このデモでは、Microsoft Defender for Cloud Apps の機能について説明します。  Cloud Discovery ダッシュボードで使用可能な情報、および検出事項を調査し、ポリシーを通して組織に対する影響を制御するために利用可能な機能について、学習者に詳しく説明します。  注: 組織にユーザーベースのサブスクリプション サービスである Microsoft Defender for Cloud Apps を使用するためのライセンスがある必要があります。  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>デモ パート 1:Cloud Discovery の詳細を確認します。
+### <a name="demo-part-1-explore-cloud-discovery"></a>デモ パート 1:Cloud Discovery の詳細を確認します
 
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。  すでに管理者としてサインインしている必要があります。そうでない場合は、、管理者の資格情報でサインインします。
 
@@ -54,7 +55,9 @@ ms.locfileid: "137894327"
 
 1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>デモ パート 2:記録されたアクティビティを調査する方法の詳細を確認します。
+### <a name="demo-part-2"></a>デモ パート 2
+
+記録されたアクティビティを調査する方法の詳細を確認します。
 
 1. 左ナビゲーション パネルで、「**調査**」の下の「**アクティビティ ログ**」を選択します。  ここでは、接続されたアプリからすべてのアクティビティ可視化できます。   すでに Offic e365 コネクタが接続されているので、いくつかのデータを表示できるはずです。 Cloud App Security をアプリのコネクタを使用してアプリに接続した後、Cloud App Security では発生したすべてのアクティビティがスキャンされます。事後でのスキャンにかかる時間はアプリによって異なります。その後は、継続的に新しいアクティビティで更新されます。  
 
@@ -66,8 +69,9 @@ ms.locfileid: "137894327"
 
 1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
+### <a name="demo-part-3"></a>デモ パート 3
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>デモ パート 3:このタスクでは、Microsoft Defender for Cloud Apps の [ポリシー] ページと [アラート] ページの詳細を確認します。
+このタスクでは、Microsoft Defender for Cloud Apps の [ポリシー] ページと [アラート] ページの詳細を確認します
 
 1. 左ナビゲーション パネルで、「制御」の下の「**ポリシー**」を選択します。  一覧表示されたポリシーには、そのポリシーによって生成されたアラートの数、重大度などに関する情報が表示されます。いずれかの行項目を選択すると、そのポリシーに関するより詳細な情報が表示されます。 一覧から項目、つまり、「**危険なサインイン**」を選択します。  
 
@@ -75,5 +79,6 @@ ms.locfileid: "137894327"
 
 1. ブラウザー ウィンドウを閉じます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
+
 このデモでは、Microsoft Defender for Cloud Apps の機能について説明しました。  Cloud Discovery ダッシュボードで使用可能な情報、および検出事項を調査し、ポリシーを通して組織に対する影響を制御するために利用可能な機能について説明しました。
