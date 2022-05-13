@@ -2,20 +2,21 @@
 Demo:
   title: Azure ネットワーク セキュリティ グループ (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019285"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557531"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>デモ:Azure ネットワーク セキュリティ グループ (NSG)
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
+
 このデモでは、Azure ネットワーク セキュリティ グループ (NSG) の機能について説明します。  これを行うには、デモ前のセットアップの一環として、最初に NSG なしで仮想マシン (VM) を作成します。 また、インターフェイスやサブネットが関連付けられていない NSG を作成します。  デモの一部として、NSG のデフォルトの受信規則と送信規則について説明します。 次に、VM のインターフェイスを NSG に割り当てるプロセスを実行します。  構成した後、既定の NSG 規則や作成した規則を使用して、VM への接続をテストします。
   
+### <a name="pre-demo-setup-part-1"></a>デモ前のセットアップ パート 1
 
-#### <a name="pre-demo-setup-part-1"></a>デモ前のセットアップ パート 1
  講師は、VM の作成に数分かかる可能性があるため、クラス時間の **前** にこれを行うことをお勧めします。 このセットアップでは、Windows 10 仮想マシンを作成します。
 
 1. ブラウザーで、「**ホーム – Microsoft Azure**」タブを開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
@@ -62,7 +63,8 @@ ms.locfileid: "138019285"
 
 1. Azure portal の「SC900-WinVM」に戻ります。  次のタスクのために、このブラウザー タブを開いたままにします。
 
-#### <a name="pre-demo-setup-part-2"></a>デモ前のセットアップ パート 2
+### <a name="pre-demo-setup-part-2"></a>デモ前のセットアップ パート 2
+
 ネットワーク セキュリティ グループを作成しますが、VM のネットワーク インターフェイスをその NSG に割り当てないでください。  
 
 1. ブラウザーで、「SC900-WinVM – Microsoft Azure」タブを開きます。
@@ -80,7 +82,8 @@ ms.locfileid: "138019285"
 
 1. デプロイが完了したら、「**リソースに移動**」を選択し、すべてが正しいことを確認します。  3 つの既定の受信規則、3 つの既定の送信規則があり、NSG に関連付けられたサブネットとインターフェイスはありません。  Azure portal の「**ホーム**」ページに戻ります。  
 
-#### <a name="demo"></a>デモ
+### <a name="demo"></a>デモ
+
 NSG の設定について詳しく説明します。  この場合、VM インターフェイスにまだ割り当てられていない既存の NSG (上記のセットアップで作成したもの) について詳しく説明します。 次に、インターフェイスを NSG に関連付けるプロセスと、受信規則と送信規則を作成するプロセスについて説明します。
 
 1. ブラウザー タブ「**ホーム - Microsoft Azure**」を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
@@ -143,13 +146,14 @@ NSG の設定について詳しく説明します。  この場合、VM イン�
 
 1. 次に、送信 NSG 規則をテストします
     1. VM で Microsoft Edge ブラウザーを開きます。
-    1. **https://www.bing.com** を入力します。 ページは表示されません。 注: インターネットに接続でき、送信規則のすべてのパラメーターが適切に設定されていたことを確認した場合、これは規則が有効になるまで数分かかることによる可能性があります。 しばらく待ってから再試行してください。
+    1. 「**www.bing.com**」と入力します。 ページは表示されません。 注: インターネットに接続でき、送信規則のすべてのパラメーターが適切に設定されていたことを確認した場合、これは規則が有効になるまで数分かかることによる可能性があります。 しばらく待ってから再試行してください。
 
 1. IP アドレスが表示されるページの上中央の「**X**」を選択して、リモート デスクトップ接続を閉じます。 ポップアップ ウィンドウに「リモート セッションが閉じられた」ことが表示されます。 **[OK]** を選択します。
 
 1. ページ上部の青色バーで、「**Microsoft Azure**」を選択して、Azure portal の「ホーム」ページに戻ります。
 
-#### <a name="tear-down"></a>破棄
+### <a name="tear-down"></a>破棄
+
 **重要**:このタスクでは、リソース グループとそれに含まれるすべてのリソースが削除されます。   これは、追加料金を避けるために重要です。
 
 1. ブラウザーで、「SC900-WinVM – Microsoft Azure」タブを開きます。

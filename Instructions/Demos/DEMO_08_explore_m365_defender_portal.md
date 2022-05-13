@@ -2,19 +2,22 @@
 Demo:
   title: Microsoft 365 Defender ポータル
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614364"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557315"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>デモ:Microsoft 365 Defender ポータル
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
+
 このデモでは、ランディング ページに表示されるコンテンツを詳しく説明して、Microsoft 365 Defender ポータルについて説明します。 また、Microsoft の Extended Detection and Response (XDR) ソリューション(Microsoft Defender for Endpoints、および Microsoft Defender for Office 365 (電子メールとコラボレーション)) の一部である機能にすばやくアクセスできるナビゲーション パネルのオプションを詳細に確認します。  最後に、Microsoft Secure Score が組織のセキュリティ体制の改善にどのように役立つかについて説明します。
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>デモ パート 1:Microsoft 365 Defender ポータルを詳細に確認します。
+### <a name="demo-part-1"></a>デモ パート 1
+
+Microsoft 365 Defender ポータルを詳細に確認します。
 
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。  すでに管理者としてサインインしている必要があります。そうでない場合は、、管理者の資格情報でサインインします。
 
@@ -36,7 +39,9 @@ ms.locfileid: "142614364"
 
 1. カードのタイトルを選択すると、そのトピックの追加情報に移動します。 次のタスクでは、これを詳細に確認します。  ブラウザー ウィンドウを開いたままにします。
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>デモ パート 2:デモのこの部分では、Microsoft Secure Score が組織のセキュリティ体制の改善にどのように役立つかについて説明します。
+### <a name="demo-part-2"></a>デモ パート 2
+
+デモのこの部分では、Microsoft Secure Score が組織のセキュリティ体制の改善にどのように役立つかについて説明します。
 
 1. Microsoft 365 Defender ポータルの「ようこそ」ページで、カードのタイトル バーから「**Microsoft Secure Score**」を選択します (テキストが青色に変わります)。  または、左ナビゲーション パネルで、「**セキュア スコア**」を選択することもできます。
 
@@ -56,6 +61,6 @@ ms.locfileid: "142614364"
 
 1. 「ブラウザー」ページを閉じます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
 このデモでは、ランディング ページに表示されるコンテンツを詳しく説明して、Microsoft 365 Defender ポータルを詳細に確認しました。Microsoft の Extended Detection and Response (XDR) ソリューション (Microsoft Defender for Endpoints、および Microsoft Defender for Office 365 (電子メールとコラボレーション)) の一部である機能にすばやくアクセスできるナビゲーション パネルのオプションを詳細に確認しました。  最後に、Microsoft Secure Score が組織のセキュリティ体制の改善にどのように役立つかについて説明しました。

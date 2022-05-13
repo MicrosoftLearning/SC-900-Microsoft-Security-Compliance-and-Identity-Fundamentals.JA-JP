@@ -2,21 +2,24 @@
 lab:
   title: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489237"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557268"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>ラボ:Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
+
 このラボでは、Privileged Identity Management (PIM) のいくつかの基本的な機能の詳細を確認します。 PIM には Azure AD Premium P2 が必要です。  このラボでは、管理者として、Privileged Identity Management (PIM) を通して、Azure AD ユーザー管理者のロールを持つ 「Diego Siciliani」という 1 人のユーザーを構成します。   Diego は、ユーザー管理特権を持つため、ユーザーとグループの作成、ライセンスの管理などを行うことができます。  管理者およびユーザー「Diego」は、Azure AD Premium P2 ライセンスに対して構成する必要があります。
 
 **推定時間**:30 ～ 45 分
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>タスク 1:このタスクでは、管理者として、ユーザー「Diego Siciliani」のパスワードをリセットします。 この手順は、後続のタスクで、ユーザーとして最初にサインインできるために必要です。
+### <a name="task-1"></a>タスク 1
+
+このタスクでは、管理者として、ユーザー「Diego Siciliani」のパスワードをリセットします。 この手順は、後続のタスクで、ユーザーとして最初にサインインできるために必要です。
 
 1. Microsoft Edge を開きます。  アドレス バーに、「**portal.azure.com**」と入力します。
 
@@ -43,8 +46,9 @@ ms.locfileid: "141489237"
 
 11. 後続のタスクでで使用するため、ブラウザー ページを開いたままにします。
 
+### <a name="task-2"></a>タスク 2
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>タスク 2:このタスクでは、管理者として、Privileged Identity Management で、Diego に Azure AD のロールを割り当てます。
+このタスクでは、管理者として、Privileged Identity Management で、Diego に Azure AD のロールを割り当てます。
 
 1. 「Contoso – Microsoft Azure」というラベルが表示されているブラウザー タブに移動します。   ブラウザー タブを以前に閉じた場合は、Microsoft Edge を開き、アドレス バーに「portal.azure.com」と入力して、管理者の資格情報でサインインしてから、「Azure Active Directory」を選択します。  
 
@@ -62,7 +66,7 @@ ms.locfileid: "141489237"
 
 8. スコープの種類を既定値の「ディレクトリ」のままにします。  
 
-9. 「メンバーの選択」で、「**メンバーが選択されていません**」を選択します。 これにより、「メンバーの選択」ウィンドウが開きます。 
+9. 「メンバーの選択」で、「**メンバーが選択されていません**」を選択します。 これにより、「メンバーの選択」ウィンドウが開きます。
 
 10. 「検索」バーに「**Diego**」と入力します。  検索結果から「**Diego Siciliani**」を選択してから、ページの下部で「**選択**」を押します。  
 
@@ -84,8 +88,9 @@ ms.locfileid: "141489237"
 
 19. 画面の右上隅のメール アドレスの隣の「ユーザー」アイコンを選択し、「**サインアウト**」を選択してサインアウトします。次に、すべてのブラウザー ウィンドウを閉じます。
 
+### <a name="task-3"></a>タスク 3
 
-#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>タスク 3:このタスクでは、「Diego Siciliani」として Azure portal にサインインして、Azure Active Directory の Privileged Identity Management 機能にアクセスして、ユーザー管理者として割り当てを有効化します。  有効化した後、既存のユーザーに対して、いくつかの構成変更を行います。 注: このタスクでは、直ぐにアクセスして、テキスト メッセージを受信できるモバイル デバイスにアクセスする必要があります。
+このタスクでは、「Diego Siciliani」として Azure portal にサインインして、Azure Active Directory の Privileged Identity Management 機能にアクセスして、ユーザー管理者として割り当てを有効化します。  有効化した後、既存のユーザーに対して、いくつかの構成変更を行います。 注: このタスクでは、直ぐにアクセスして、テキスト メッセージを受信できるモバイル デバイスにアクセスする必要があります。
 
 1. Microsoft Edge を開きます。  ブラウザーのアドレス バーに、「**portal.azure.com**」と入力します。
 
@@ -107,24 +112,25 @@ ms.locfileid: "141489237"
 1. 「Microsoft Authenticator」ウィンドウの下部で、「**異なる方法をセットアップする**」を選択します。
 1. 異なる方法を選択するように求められます。  「認証アプリ」の隣の下方向キーを選択します。   「**電話**」を選択してから、「**確認**」を選択します。
 1. 使用する電話番号を入力するように求められます。 電話番号の国コードに対する国が正しいことを確認します。  電話番号を入力し、「**コードをテキスト メッセージで送信する**」が選択されていることを確認してから、「**次へ**」を選択します。
-1. 受信した 6 桁のコードを入力し、「**次へ**」を選択します。 
+1. 受信した 6 桁のコードを入力し、「**次へ**」を選択します。
 1. 電話番号が正常に登録された旨の通知が表示されます。 「**次へ**」を選択してから、「**完了**」を選択します。
 1. サインインしたままにするかどうか尋ねられます。  **[はい]** を選択します。
 1. 「ユーザー管理者の有効化」ウィンドウが表示されます。  アクティブ化の理由を入力する必要があります。  表示されるボックスに、理由 (最大 500 文字) を入力してから、「**有効化**」を選択します。
 1. アクティブ化が処理されるにつれ、ステータス (3 つの進捗状況の段階) が表示されます。
-1. アクティブ化が完了すると、[自分のロール | Azure AD ロール] に戻り、そこでロールがアクティブ化されたことを示す通知が表示されます。  「**ここをクリック**」を選択して、アクティブなロールを表示します。  終了時刻が元々構成した時刻と異なることに気づいた場合は、ページの上部の「更新」キーを選択します (更新には数分かかる場合があります)。 
+1. アクティブ化が完了すると、[自分のロール | Azure AD ロール] に戻り、そこでロールがアクティブ化されたことを示す通知が表示されます。  「**ここをクリック**」を選択して、アクティブなロールを表示します。  終了時刻が元々構成した時刻と異なることに気づいた場合は、ページの上部の「更新」キーを選択します (更新には数分かかる場合があります)。
 1. 画面の右上隅の「**X**」を選択して、ウィンドウを閉じます。
 1. 画面右上隅の **X** を選択して、[Privileged Identity Management | クイック スタート] ウィンドウを閉じます。
 1. 画面の右上隅の「**X**」を選択して、「ID ガバナンス」ウィンドウを閉じます。
 1. 「Contoso Azure Active Directory」ページに移動します。  Azure AD ユーザー管理者として、ユーザーとグループの作成、ライセンスの管理などを行うことができます。   左ナビゲーション パネルで、「**ユーザー**」を選択します。
 1. ユーザーの一覧から、「**Bianca Pisani**」を選択します。
 1. 左ナビゲーション パネルで、「**ライセンス**」を選択します。
-1. Bianca にライセンスが割り当てられていないことに注意してください。  画面の上部で、「 **+ 割り当て**」を選択します。 
+1. Bianca にライセンスが割り当てられていないことに注意してください。  画面の上部で、「 **+ 割り当て**」を選択します。
 1. 「ライセンス一覧の選択」で、「**Office 365 E3**」と「**Windows 10 Enterprise E3**」を選択します。
 1. ページの下部で、「**保存**」を選択します。  ライセンスが正常に割り当てられたことを示す簡単な通知が、ページの右上に表示されます。
 1. ページの右上隅の「**X**」を選択して、「更新されたライセンスの割り当て」ページを閉じます。
 1. 画面の右上隅のメール アドレスの隣の「ユーザー」アイコンを選択し、「**サインアウト**」を選択してサインアウトします。次に、すべてのブラウザー ウィンドウを閉じます。
 1. ユーザー管理者のロールの期間は、構成した時間に制限されます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
+
 このラボでは、PIM について詳細を確認しました。  管理者として、Diego をユーザー管理者権限を持つユーザーとして、その期間を構成しました。  次に、Diego として、ユーザー管理者権限を有効化し、ユーザー設定を構成するプロセスを実施しました。  PIM には、Azure AD Premium P2 ライセンスが必要であることに注意してください。

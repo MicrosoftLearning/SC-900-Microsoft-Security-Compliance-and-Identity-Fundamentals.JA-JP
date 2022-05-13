@@ -2,12 +2,12 @@
 lab:
   title: Service Trust Portal を詳細に確認する
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614196"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557208"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>ラボ:Service Trust Portal を詳細に確認する
 
@@ -17,12 +17,13 @@ ms.locfileid: "142614196"
 
 **推定時間**:10 ～ 15 分
 
+### <a name="task-1"></a>タスク 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>タスク 1:このタスクでは、Service Trust Portal と利用可能なさまざまな種類のコンテンツを詳細に確認あしべ、レポートにアクセスする方法と、レポートをライブラリに保存する方法を学習します。 
+このタスクでは、Service Trust Portal と利用可能なさまざまな種類のコンテンツを詳細に確認あしべ、レポートにアクセスする方法と、レポートをライブラリに保存する方法を学習します。
 
 1. Microsoft Edge を開きます。
 
-1. アドレス バーに、「 **https://aka.ms/STP** 」と入力します。  これにより、Service Trust Portal のランディング ページが表示されます。 Service Trust Portal には、Microsoft のクラウド サービスとその中の顧客データを保護する制御とプロセスの実装に関する詳細が含まれています。 
+1. アドレス バーに、「**aka.ms/STP**」と入力します。  これにより、Service Trust Portal のランディング ページが表示されます。 Service Trust Portal には、Microsoft のクラウド サービスとその中の顧客データを保護する制御とプロセスの実装に関する詳細が含まれています。
 
 1. Service Trust Portal のリソースの一部にアクセスするには、Microsoft クラウド サービス アカウントで認証済みユーザーとしてログインし、コンプライアンス資料に関する Microsoft 機密保持契約を確認して同意する必要があります。 Service Trust Portal のランディング ページの右上隅に、サインインするオプションが表示されます。  管理者の資格情報を使用して **サインイン** し、プロンプトが表示されたら、 **[同意する]** を選択して、コンプライアンス資料に関する Microsoft 機密保持契約に同意します。
 
@@ -46,7 +47,9 @@ ms.locfileid: "142614196"
 
 1. さまざまなカテゴリから選択できます。  GRC 評価レポート、コンプライアンス ガイドなどが含まれます  前のタスクと同様に、表示されるドキュメントの一覧をフィルター処理したり、ドキュメントを選択してダウンロードしたり、ライブラリにドキュメントを保存したりできます。
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>タスク 2:このタスクでは、セキュリティ センターにアクセスして、Microsoft の 6 つの主要なプライバシー原則に移動します。
+### <a name="task-2"></a>タスク 2
+
+このタスクでは、セキュリティ センターにアクセスして、Microsoft の 6 つの主要なプライバシー原則に移動します。
 
 1. 「Service Trust Portal」ページの上部で、「**セキュリティ センター**」を選択してから、「**ホーム**」を選択します。 これにより、新しいブラウザー タブが開き、セキュリティ センターに移動します。ここで、Microsoft クラウドのセキュリティ、コンプライアンス、プライバシーに関する詳細情報を確認できます。
 
@@ -60,6 +63,6 @@ ms.locfileid: "142614196"
 
 1. ブラウザー ウィンドウを閉じて、Service Trust Portal とセキュリティ センターを終了します。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
 このラボでは、Service Trust Portal で利用できるいくつかのオプション、レポートにアクセスする方法、自分のライブラリを使用して将来のレビューのためにドキュメントを保存する方法を詳細に確認しました。  さらに、セキュリティ センターにアクセスして、Microsoft のプライバシー原則にアクセスして確認しました。

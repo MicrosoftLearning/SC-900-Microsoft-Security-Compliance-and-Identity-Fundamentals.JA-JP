@@ -2,21 +2,24 @@
 lab:
   title: Microsoft Sentinel の詳細
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614340"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557160"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>ラボ:Microsoft Sentinel の詳細 
+# <a name="lab-explore-microsoft-sentinel"></a>ラボ:Microsoft Sentinel の詳細
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
+
 このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。  また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。  この基本的なセットアップが完了したら、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップして、Microsoft Sentinel で使用できるいくつかの主要な機能について簡単に説明します。  
 
 **推定時間**:45-60 分
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>タスク 1:Microsoft Sentinel インスタンスを作成する
+### <a name="task-1"></a>タスク 1
+
+Microsoft Sentinel インスタンスを作成する
 
 1. ブラウザー タブ「**ホーム - Microsoft Azure**」を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
 
@@ -43,11 +46,13 @@ ms.locfileid: "142614340"
 
 1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>タスク 2:Microsoft Sentinel インスタンスが作成されると、Microsoft Sentinel をサポートするためにデプロイするリソースに対して、必要なアクセス権があることを確認する必要があります。  
+### <a name="task-2"></a>タスク 2
+
+Microsoft Sentinel インスタンスが作成されると、Microsoft Sentinel をサポートするためにデプロイするリソースに対して、必要なアクセス権があることを確認する必要があります。
 
 1. 検索ボックスのページ上部にある「Microsoft Azure」と表示されている場所の隣の青色バーに、「**リソース グループ**」と入力し、検索結果で、「**リソース グループ**」を選択します。 リソース グループ レベルにロールを割り当てることで、Microsoft Sentinel をサポートするためにデプロイされるすべてのリソースにロールが適用されることが保証されます。
 
-1. [リソース グループ] ページで、Microsoft Sentinel を使用して作成したリソース グループ「**SC900-Sentinel-RG**」を選択します。 
+1. [リソース グループ] ページで、Microsoft Sentinel を使用して作成したリソース グループ「**SC900-Sentinel-RG**」を選択します。
 
 1. 「SC900-Sentinel-RG」ページの左ナビゲーション パネルで、「**アクセス制御 (IAM)** 」を選択します。
 
@@ -55,14 +60,16 @@ ms.locfileid: "142614340"
 
     1. 「アクセス制御」ページで、「 **+ 追加**」を選択してから、「**ロール割り当ての追加**」を選択します。
 
-    1. 「ロール割り当ての追加」ウィンドウが開きます。  検索ボックスに「**Microsoft Sentinel**」と入力して、Microsoft Sentinel に関連付けられている 4 つのロールを表示します。 
+    1. 「ロール割り当ての追加」ウィンドウが開きます。  検索ボックスに「**Microsoft Sentinel**」と入力して、Microsoft Sentinel に関連付けられている 4 つのロールを表示します。
     1. 一覧表示されている任意のロールから、**表示** を選択してそのロールの詳細を表示します。  ベスト プラクティスとして、ロールに必要な最小特権を割り当てる必要があります。  
 
     1. ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。
 
 1. アクセスの制御ページから、ウィンドウの右上隅の **[X]** を選択して、ウィンドウを閉じます。
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>タスク 3:このタスクでは、Microsoft Sentinel をデータ ソースに接続し、データの収集を開始するプロセスについて一通り説明します。
+### <a name="task-3"></a>タスク 3
+
+このタスクでは、Microsoft Sentinel をデータ ソースに接続し、データの収集を開始するプロセスについて一通り説明します。
 
 1. ページ上部の "Microsoft Azure" と表示されている青色のバーの横にある検索ボックスに、「**Microsoft Sentinel**」と入力し、検索結果から **[Microsoft Sentinel]** を選択します。
 
@@ -84,7 +91,9 @@ ms.locfileid: "142614340"
 
 1. 次のタスクで使用するため、このページを開いたままにしておきます。
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>タスク 4:このタスクでは、データの視覚化と監視を行うために、Office 365 用のブックを設定するプロセスについて説明します。
+### <a name="task-4"></a>タスク 4
+
+このタスクでは、データの視覚化と監視を行うために、Office 365 用のブックを設定するプロセスについて説明します。
 
 1. 左ナビゲーション パネルで、「**ワークブック**」を選択します。
 
@@ -96,7 +105,9 @@ ms.locfileid: "142614340"
 
 1. [ブック] ページの左上隅の、"ブック" と表示されている場所の上にある、 **[Microsoft Sentinel]** を選択します。 これで、[概要] ページに戻ります。
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>タスク 5:このタスクでは、Sentinel で使用できるオプションの一部について説明します。
+### <a name="task-5"></a>タスク 5
+
+このタスクでは、Sentinel で使用できるオプションの一部について説明します。
 
 1. 左側のナビゲーション ウィンドウから、 **[ハンティング]** を選択します。  選択されている (下線付き) **クエリ** タブで、一覧から任意のクエリを選択します。  クエリが選択されたら、そのクエリに関して表示される情報 (クエリのコードを含む) と、クエリを実行して結果を表示するためのオプションに注目してください。  何も選択しないでください。
 
@@ -114,7 +125,9 @@ ms.locfileid: "142614340"
 
 1. ウィンドウの左上隅にある青いバーのすぐ下にある **[ホーム]** を選択して、Azure portal のホーム ページに戻ります。
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>タスク 6:Microsoft Sentinel の課金は、分析のために Microsoft Sentinel に取り込まれたデータの量に基づいて行われます。 このラボの結果として取り込まれるデータの量は最小限ですが、Microsoft Sentinel の機能を確認した後は、Microsoft Sentinel リソース グループを削除することをお勧めします。
+### <a name="task-6"></a>タスク 6
+
+Microsoft Sentinel の課金は、分析のために Microsoft Sentinel に取り込まれたデータの量に基づいて行われます。 このラボの結果として取り込まれるデータの量は最小限ですが、Microsoft Sentinel の機能を確認した後は、Microsoft Sentinel リソース グループを削除することをお勧めします。
 
 1. 上に「Microsoft Sentinel」と表示されている [Microsoft Sentinel] ページの左上隅で、 **[すべてのサービス]** を選択します。
 
@@ -124,8 +137,8 @@ ms.locfileid: "142614340"
 
 4. ページの中央上で、「**リソース グループの削除**」を選択します。  警告を確認します。  リソース グループ名「**SC900-ResourceGroup**」を入力してから、ページの下部の「**削除**」を選択します。  リソース グループを削除するのに数分かかります。
 
-5. リソース グループが削除されたことを確認し、「ブラウザー」ページを閉じます。 
+5. リソース グループが削除されたことを確認し、「ブラウザー」ページを閉じます。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
 このデモでは、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップし、Microsoft Sentinel で使用できるいくつかのオプションについて説明しました。

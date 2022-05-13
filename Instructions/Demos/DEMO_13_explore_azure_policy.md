@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614184"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557136"
 ---
 # <a name="demo-azure-policy"></a>デモ:Azure Policy
 
-### <a name="demo-scenario"></a>デモ シナリオ
+## <a name="demo-scenario"></a>デモ シナリオ
+
 このデモでは、Azure Policyを設定するプロセスと、そのポリシーの影響について詳しく説明します。
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>デモ パート 1:リソース グループにタグを要求するポリシーを作成します (テンプレートでポリシーを作成する手順を示します)
+### <a name="demo-part-1"></a>デモ パート 1
+
+リソース グループにタグを要求するポリシーを作成します (テンプレートでポリシーを作成する手順を示します)
 
 1. Microsoft Edge を開きます。 アドレス バーに、「**portal.microsoft.com**」と入力します。  管理者の資格情報でサインインしない場合は、すでにサインインしているはずです。
 
@@ -46,7 +49,9 @@ ms.locfileid: "142614184"
 
 1. これで、Azure サービスの「ホーム」ページが表示されます。  次のタスクで必要なため、このページを開いたままにしておきます。
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>デモ パート 2:タグなしでリソース グループを作成してポリシーの影響を示し、タグを持つように修正します。
+### <a name="demo-part-2"></a>デモ パート 2
+
+タグなしでリソース グループを作成してポリシーの影響を示し、タグを持つように修正します。
 
 1. ページの上部、Azure Services と表示されている場所の下で、「**リソース グループ**」を選択します。 一覧表示されているオプションが表示されない場合は、検索バーに「リソース グループ」と入力し、そこから選択します。
 
@@ -74,6 +79,6 @@ ms.locfileid: "142614184"
 
 1. リソース グループが一覧表示されます。  タグがリソース グループで提供されたため、Azure ポリシーの一部として含まれている条件が満たされました。  リソース グループはポリシーに準拠しています。
 
-#### <a name="review"></a>確認
+### <a name="review"></a>確認
 
 このデモでは、Azure Policyを設定するプロセスと、そのポリシーの影響について説明しました。
