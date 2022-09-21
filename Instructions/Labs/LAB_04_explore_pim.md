@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する '
-  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557268"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892223"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する ' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 4: Azure AD の ID の保護およびガバナンスの機能について説明する; ユニット 4: Privileged Identity Management の機能を説明する'
+---
+--->
+
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>ラボ:Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD の ID の保護およびガバナンスの機能について説明する
+- ユニット: Privileged Identity Management の機能を説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ ms.locfileid: "144557268"
 1. Microsoft Edge を開きます。  アドレス バーに、「**portal.azure.com**」と入力します。
 
 2. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 

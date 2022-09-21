@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 条件付きアクセスを使った Azure AD のアクセス管理について調べる
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542605"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892163"
 ---
+<a name="---"></a><!---
+---
+ラボ: ラーニング パス: 'Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する' モジュール: 'Azure AD のアクセス管理機能について説明する' ユニット: 'Azure AD の条件付きアクセスについて説明する'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>ラボ:Azure AD の条件付きアクセス管理の詳細を確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD のアクセス管理機能について説明する
+- ユニット: Azure AD の条件付きアクセスについて説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ ms.locfileid: "146542605"
 1. Microsoft Edge を開きます。  アドレス バーに、「**portal.azure.com**」と入力します。
 
 2. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」 (ZZZZZZ はラボ ホスティング プロバイダーから指定された固有のテナント ID) と入力してから、**[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 

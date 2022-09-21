@@ -1,15 +1,22 @@
 ---
-Demo:
-  title: Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381242"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892451"
 ---
+<a name="---"></a><!---
+---
+デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>デモ:Service Trust Portal
+
+このデモは、次の Learn コンテンツに対応しています。
+
+ラーニング パス: Microsoft コンプライアンスの機能について説明する: モジュール: Microsoft Purview のコンプライアンス管理機能について説明する: ユニット: Service Trust Portal を詳細に確認する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 

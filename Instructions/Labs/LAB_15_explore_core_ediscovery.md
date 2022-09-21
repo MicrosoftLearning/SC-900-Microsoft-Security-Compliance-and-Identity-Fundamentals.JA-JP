@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 電子情報開示 (Standard) ワークフローを調べる
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649971"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892666"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: '電子情報開示 (Standard) ワークフローを調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 5: Microsoft Purview の電子情報開示および監査機能について説明する; ユニット 2: Microsoft 365 の電子情報開示ソリューションについて説明する'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>ラボ:電子情報開示 (Standard) ワークフローを調べる
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft コンプライアンスの機能について説明する
+- モジュール: Microsoft Purview の電子情報開示および監査機能について説明する
+- ユニット: Microsoft 365 の電子情報開示ソリューションについて説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,14 +33,14 @@ ms.locfileid: "146649971"
  Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」 (ZZZZZZ はラボ ホスティング プロバイダーから指定された固有のテナント ID) と入力してから、**[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
 
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。 これにより、[Microsoft 365 管理センター] ページにリダイレクトされます。
 
-1. Microsoft 365 管理センターの左側のナビゲーション ウィンドウで、**[すべて表示]** を選択します。
+1. Microsoft 365 管理センターの左ナビゲーション ペインで、**[すべて表示]** を選択します。
 
-1. [管理センター] で、**[コンプライアンス]** を選択します。  ブラウザーの新しいページで、Microsoft Purview コンプライアンス ポータルのウェルカム ページが開きます。  
+1. [管理センター] の下で、**[コンプライアンス]** を選択します。  ブラウザーの新しいページで、Microsoft Purview コンプライアンス ポータルのウェルカム ページが開きます。  
 
 1. 左側のナビゲーション ウィンドウで、 **[アクセス許可]** を選択します。
 
@@ -45,7 +54,7 @@ ms.locfileid: "146649971"
 
 1. ページの上部で、**[+ 追加]** を選択します。
 
-1. 名前の一覧で、**[MOD 管理者]**、**[Megan Bowen]** を選択し、ページの下部の **[追加]** を選択してから、ページの下部の **[完了]** を選択します。
+1. 名前のリストで、**[MOD 管理者]**、**Megan Bowen** を選択し、ページの下部の **[追加]** を選択してから、ページの下部にある **[完了]** を選択します。
 
 1. 追加されたメンバーが正しいことを確認してから、**[保存]** を選択します。
 

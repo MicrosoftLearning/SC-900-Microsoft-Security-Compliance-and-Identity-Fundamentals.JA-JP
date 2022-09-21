@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: 'Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2ea64f800931ec99ace8cd3ec349573a0931899e
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557173"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892619"
 ---
+<a name="---"></a><!---
+---
+デモ: タイトル: Microsoft Defender for Cloud Apps ' モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 5: Microsoft Defender for Cloud Apps について説明する'
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>デモ:Microsoft Defender for Cloud Apps
+
+このデモは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Microsoft 365 の脅威に対する保護機能について説明する
+- ユニット: Microsoft Defender for Cloud Apps について説明する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 

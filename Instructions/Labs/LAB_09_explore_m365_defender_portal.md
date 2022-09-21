@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft 365 Defender ポータルを詳細に確認する
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649983"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892679"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Microsoft 365 Defender ポータルを詳細に確認する' モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 7: Microsoft 365 Defender ポータルについて説明する'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>ラボ:Microsoft 365 Defender ポータルを詳細に確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Microsoft 365 の脅威に対する保護機能について説明する
+- ユニット: Microsoft 365 Defender ポータルについて説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ Microsoft 365 Defender ポータルを詳細に確認します。
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」 (ZZZZZZ はラボ ホスティング プロバイダーから指定された固有のテナント ID) と入力してから、**[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
 
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。 これにより、[Microsoft 365 管理センター] ページにリダイレクトされます。

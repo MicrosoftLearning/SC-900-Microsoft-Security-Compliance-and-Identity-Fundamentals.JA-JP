@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Defender for Cloud について調べる
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 29933f0f33320aba85a58af7f0cbff4d8b430247
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: eeee584ece9bb3ec4edcba5fa2e76a13dd9459c4
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650079"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892607"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Microsoft Defender for Cloud について調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: Microsoft Defender for Cloud について説明する'
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>ラボ:Microsoft Defender for Cloud について調べる
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Azure のセキュリティ管理機能について説明する
+- ユニット: Microsoft Defender for Cloud について説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ ms.locfileid: "146650079"
 1. Microsoft Edge を開きます。 アドレス バーに、「**portal.azure.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 

@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory のセルフサービス パスワード リセット
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557220"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892139"
 ---
-# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>デモ:Azure Active Directory のセルフサービス パスワード リセット (SSPR)
+<a name="---"></a><!---
+---
+デモ: タイトル: 'Azure AD のセルフサービス パスワード リセット (SSPR)' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: Azure AD のセルフサービス パスワード リセットについて説明する'
+---
+--->
+
+# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>デモ: Azure AD のセルフサービス パスワード リセット (SSPR)
+
+このデモは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD の認証機能について説明する
+- ユニット: Azure AD のセルフサービス パスワード リセットについて説明する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 

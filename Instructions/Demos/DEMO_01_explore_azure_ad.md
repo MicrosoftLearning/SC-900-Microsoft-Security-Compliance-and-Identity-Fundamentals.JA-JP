@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory ユーザー設定
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741893"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892187"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>デモ:Azure Active Directory ユーザー設定
+<a name="---"></a><!---
+---
+デモ: タイトル: 'Azure AD ユーザー設定の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 1: Azure AD の基本的なサービスと ID の種類について説明する; ユニット 4: Azure AD の ID の種類について説明する'
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>デモ: Azure AD ユーザー設定
+
+このデモは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD の基本的なサービスと ID の種類について説明する
+- ユニット: Azure AD の ID の種類について説明する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 
@@ -20,7 +29,7 @@ ms.locfileid: "146741893"
 1. アドレス バーに、「**admin.microsoft.com**」と入力して、Microsoft 365 管理センターにアクセスします。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 

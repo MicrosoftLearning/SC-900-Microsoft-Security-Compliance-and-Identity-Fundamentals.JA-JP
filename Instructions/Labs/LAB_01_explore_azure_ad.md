@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure Active Directory の詳細を確認する
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557292"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892247"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Azure Active Directory の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 1: Azure AD の基本的なサービスと ID の種類について説明する; ユニット 4: Azure AD の ID の種類について説明する'
+---
+--->
+
 # <a name="lab-explore-azure-active-directory"></a>ラボ:Azure Active Directory の詳細を確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD の基本的なサービスと ID の種類について説明する
+- ユニット: Azure AD の ID の種類について説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -26,13 +35,13 @@ Microsoft 365 のサブスクライバーの方であれば、Azure AD を既に
 2. アドレス バーに、「**admin.microsoft.com**」と入力して、Microsoft 365 管理センターにアクセスします。
 
 3. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 
-4. Microsoft 365 管理センターの左側のナビゲーション ウィンドウで、**[すべて表示]** を選択します。
+4. Microsoft 365 管理センターの左ナビゲーション ペインで、**[すべて表示]** を選択します。
 
-5. 管理センターの下で、**[Azure Active Directory]** を選択します (下にスクロールする必要があるかもしれません)。  新しいブラウザー タブが開き、Azure Active Directory 管理センターの [マイ ダッシュボード] ページが表示されます。 ダッシュボードのメイン ウィンドウには、組織の ID のタイル (Contoso、テナント、Azure AD エディション)、ユーザーやグループのタイルなど、いくつかのタイルが表示されます。
+5. 管理センターの下で、**[Azure Active Directory]** を選択します (下にスクロールする必要があるかもしれません)。  Azure Active Directory 管理センターの [マイ ダッシュボード] ページを表示する新しいブラウザー ページが開きます。 ダッシュボードのメイン ウィンドウには、組織の ID のタイル (Contoso、テナント、Azure AD エディション)、ユーザーやグループのタイルなど、いくつかのタイルが表示されます。
 
 6. 左側のナビゲーション ウィンドウの [お気に入り] で **[Azure Active Directory]** を選択します。  メイン ウィンドウには、Azure AD で利用可能なすべてのサービスが一覧表示されている別のナビゲーション パネルが表示されます。 右側に、Contoso テナントに関する情報、作成できる ID の種類やおすすめのサービスに対するリンクが表示されます。  
 

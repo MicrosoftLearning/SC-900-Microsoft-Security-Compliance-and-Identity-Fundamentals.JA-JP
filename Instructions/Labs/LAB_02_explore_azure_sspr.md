@@ -1,15 +1,24 @@
 ---
-lab:
-  title: セルフサービス パスワード リセットによる Azure AD 認証の詳細を確認する
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542653"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892175"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'セルフサービス パスワード リセットによる Azure AD Authentication の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: Azure AD のセルフサービス パスワード リセットについて説明する'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>ラボ:セルフサービス パスワード リセットによる Azure AD 認証の詳細を確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD の認証機能について説明する
+- ユニット: Azure AD のセルフサービス パスワード リセットについて説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -64,7 +73,7 @@ ms.locfileid: "146542653"
 
 このタスクでは、管理者として、使用する認証方法の種類の構成を含む、ユーザーのパスワード リセットを構成する方法を学習します
 
-1. ブラウザーで開いている [Contoso – Microsoft Azure] タブに移動します。 タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、[Azure Active Directory] を選択します。  Azure portal に管理者としてログインする必要があります。そうでない場合は、もう一度サインインしてください。
+1. ブラウザーで開いている [Contoso – Microsoft Azure] タブに移動します。 前にタブを閉じている場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、[Azure Active Directory] を選択します。  Azure portal に管理者としてログインする必要があります。そうでない場合は、もう一度サインインしてください。
 
 1. 左ナビゲーション ウィンドウで、**[パスワードのリセット]** を選択します。  
 
@@ -152,7 +161,7 @@ ms.locfileid: "146542653"
 2. アドレス バーに、「**portal.azure.com**」と入力します
 
 3. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 

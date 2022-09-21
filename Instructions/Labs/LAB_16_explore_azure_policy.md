@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure Policy を探索する
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741917"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892151"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Azure Policy を探索する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 6: Azure のリソース ガバナンス機能について説明する; ユニット 2: Azure Policy について説明する'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>ラボ:Azure Policy を探索する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft コンプライアンスの機能について説明する
+- モジュール: Azure のリソース ガバナンス機能について説明する
+- ユニット: Azure Policy について説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ Azure ポリシー ページを簡単に確認します。
 1. Microsoft Edge を開きます。 アドレス バーに、「**portal.azure.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
 
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。

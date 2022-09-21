@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Defender for Cloud'
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: ff5145e967445c12dacd90ea50002fe0c3042efb
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741905"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892463"
 ---
+<a name="---"></a><!---
+---
+デモ: タイトル: 'Microsoft Defender for Cloud' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: Microsoft Defender for Cloud について説明する'
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud"></a>デモ:Microsoft Defender for Cloud
+
+このデモは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Azure のセキュリティ管理機能について説明する
+- ユニット: Microsoft Defender for Cloud について説明する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 
@@ -19,12 +28,12 @@ ms.locfileid: "146741905"
 
 このセットアップ タスクでは、Microsoft Defender for Cloud の基本的なセットアップを行って、サブスクリプションを準備し、既定のポリシーを有効にして割り当てます。 クラスの前でデモを行う前に、これを行います。 
 
-1. ブラウザー タブ **[ホーム - Microsoft Azure]** を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、もう一度サインインします。
+1. ブラウザー タブ **[ホーム - Microsoft Azure]** を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
 
 1. ページ上部の "Microsoft Azure" と表示されている青色のバーの横にある検索ボックスに、「**Microsoft Defender for Cloud**」と入力し、検索結果から **[Microsoft Defender for Cloud]** を選択します。
 
 1. お使いのサブスクリプションで Microsoft Defender for Cloud に初めてアクセスする場合は、[使用の開始] ページが表示され、アップグレードを求められる場合があります。  ページの下部までスクロールし、**[スキップ]** を選択します。  [概要] ページに移動します。
-    1. ページの上部に、"サブスクリプションの準備をします。 これには数分かかることがあります。" という水色の情報ボックスが表示されます。
+    1. ページの上部に、"サブスクリプションの準備をしています。これには数分かかる場合があります..." を示す これには数分かかることがあります。" という水色の情報ボックスが表示されます。
     1. サブスクリプションの準備ができると、"1 つのサブスクリプションには既定のポリシーが割り当てられません。 サブスクリプションのリストを確認するには、[セキュリティ ポリシー] ページを開きます。" という新しい情報ボックスが表示されます。  文の末尾にある右矢印を選択します。
         1. [環境設定] ページに移動します。 **[Azure Pass – スポンサーシップ]** を選択します。 
         1. 左側のナビゲーション ウィンドウで、 **[セキュリティ ポリシー]** を選択します。
@@ -39,9 +48,9 @@ ms.locfileid: "146741905"
 
 1. Microsoft Defender for Cloud の概要ページの上部の情報には、Azure サブスクリプションの数、評価済みのリソースの数、アクティブな推奨事項の数、セキュリティ アラートが含まれます。  ページの本文には、セキュア スコア、規制コンプライアンス、分析情報などを表す複数のカードがあります。  
 
-1. ページの上部で、**[評価済みのリソース]** を選択します。  (これは、Microsoft Defender for Cloud のホーム ページの左ナビゲーション パネルで、[インベントリ] を選択した場合と同じであることに注意してください)。
+1. ページの上部で、**[評価済みリソース]** を選択します。  (これは、Microsoft Defender for Cloud のホーム ページの左ナビゲーション パネルで、[インベントリ] を選択した場合と同じであることに注意してください)。
     1. これにより、Azure Pass サブスクリプションを表示する **[インベントリ]** ページにリダイレクトされます。  **[Azure Pass – スポンサーシップ]** を選択します。
-    1. [リソース正常性] ページには、推奨事項のリストが表示されます。  利用可能なリストで、**[複数の所有者がサブスクリプションに割り当てられている必要があります]** を選択します。
+    1. [リソース正常性] ページには、推奨事項の一覧が表示されます。  利用可能な一覧で、**[複数の所有者がサブスクリプションに割り当てられている必要があります]** を選択します。
     1. 修復手順の隣にあるドロップダウン矢印を選択します。 詳細な修復手順が措置を講じるためのオプションに沿ってどのように提供されるかについて注意してください。  
     1. 画面の左上隅にある **[Microsoft Defender for Cloud]** を選択して、Microsoft Defender for Cloud の [概要] ページに戻ります。
 

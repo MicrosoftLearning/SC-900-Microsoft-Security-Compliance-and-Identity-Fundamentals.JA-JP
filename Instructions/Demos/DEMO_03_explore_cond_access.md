@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory の条件付きアクセス
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557364"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892487"
 ---
-# <a name="demo-azure-active-directory-conditional-access"></a>デモ:Azure Active Directory の条件付きアクセス
+<a name="---"></a><!---
+---
+デモ: タイトル: 'Azure AD の条件付きアクセス' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 3: Azure AD のアクセス管理機能について説明する; ユニット 2: Azure AD の条件付きアクセスについて説明する'
+---
+--->
+
+# <a name="demo-azure-ad-conditional-access"></a>デモ: Azure AD の条件付きアクセス
+
+このデモは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する
+- モジュール: Azure AD のアクセス管理機能について説明する
+- ユニット: Azure AD の条件付きアクセスについて説明する
 
 ## <a name="demo-scenario"></a>デモ シナリオ
 

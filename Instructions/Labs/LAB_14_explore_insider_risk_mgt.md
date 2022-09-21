@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Purview のインサイダー リスク管理を詳細に確認する
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741881"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892703"
 ---
+<a name="---"></a><!--->
+---
+ラボ: タイトル: 'Microsoft Purview のインサイダー リスク管理を詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 4: Microsoft Purview のインサイダー リスク機能について説明する; ユニット 2: インサイダー リスク管理について説明する'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>ラボ:Microsoft Purview のインサイダー リスク管理を詳細に確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft コンプライアンスの機能について説明する
+- モジュール: Microsoft Purview のインサイダー リスク機能について説明する
+- ユニット: インサイダー リスク管理について説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -24,7 +33,7 @@ ms.locfileid: "146741881"
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
 
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。 これにより、[Microsoft 365 管理センター] ページにリダイレクトされます。

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Sentinel の詳細
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: dfa993671d905ed8bad138376c8cd71b1aa23d85
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741869"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892644"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Microsoft Sentinel の詳細' ラーニング パス/モジュール/タイトル: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する; ユニット 3: 統合型の脅威管理を Microsoft Sentinel が提供するしくみを説明する'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>ラボ:Microsoft Sentinel の詳細
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Microsoft Sentinel のセキュリティ機能について説明する
+- ユニット: 統合型の脅威管理を Microsoft Sentinel が提供するしくみを説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
@@ -21,7 +30,7 @@ ms.locfileid: "146741869"
 
 Microsoft Sentinel インスタンスを作成する
 
-1. ブラウザー タブ **[ホーム - Microsoft Azure]** を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、もう一度サインインします。
+1. ブラウザー タブ **[ホーム - Microsoft Azure]** を開きます。  タブを以前に閉じた場合は、ブラウザー ページを開き、アドレス バーに「portal.azure.com」と入力して、再度サインインします。
 
 1. ページ上部の "Microsoft Azure" と表示されている青色のバーの横にある検索ボックスに、「**Microsoft Sentinel**」と入力し、検索結果から **[Microsoft Sentinel]** を選択します。
 

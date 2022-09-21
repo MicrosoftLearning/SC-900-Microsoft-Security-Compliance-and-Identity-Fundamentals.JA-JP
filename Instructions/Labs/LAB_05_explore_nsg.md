@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure ネットワーク セキュリティ グループ (NSG) の詳細を確認する
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695295"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892199"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Azure ネットワーク セキュリティ グループ (NSG) の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 1: Azure の基本的なセキュリティ機能を説明する; ユニット 6: Azure ネットワーク セキュリティ グループについて説明する'
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>ラボ:Azure ネットワーク セキュリティ グループ (NSG) の詳細を確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+- ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する
+- モジュール: Azure の基本的なセキュリティ機能を説明する
+- ユニット: Azure ネットワーク セキュリティ グループについて説明する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 

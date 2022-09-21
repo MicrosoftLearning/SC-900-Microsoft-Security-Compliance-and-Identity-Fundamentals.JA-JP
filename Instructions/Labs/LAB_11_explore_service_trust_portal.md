@@ -1,15 +1,22 @@
 ---
-lab:
-  title: Service Trust Portal を詳細に確認する
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649947"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892691"
 ---
+<a name="---"></a><!---
+---
+ラボ: タイトル: 'Service Trust Portal を詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>ラボ:Service Trust Portal を詳細に確認する
+
+このラボは、次の Learn コンテンツに対応しています。
+
+ラーニング パス: Microsoft コンプライアンスの機能について説明する: モジュール: Microsoft Purview のコンプライアンス管理機能について説明する: ユニット: Service Trust Portal を詳細に確認する
 
 ## <a name="lab-scenario"></a>ラボのシナリオ
 
