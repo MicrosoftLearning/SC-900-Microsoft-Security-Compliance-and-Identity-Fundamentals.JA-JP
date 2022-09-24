@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892187"
----
 <a name="---"></a><!---
 ---
 デモ: タイトル: 'Azure AD ユーザー設定の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 1: Azure AD の基本的なサービスと ID の種類について説明する; ユニット 4: Azure AD の ID の種類について説明する'
@@ -33,7 +25,7 @@ ms.locfileid: "147892187"
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** をクリックします。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。
 
-1. Microsoft 365 管理センターの左ナビゲーション ペインで、**[すべて表示]** を選択します。
+1. Microsoft 365 管理センターの左側のナビゲーション ウィンドウで、**[すべて表示]** を選択します。
 
 1. 管理センターの下で、**[Azure Active Directory]** を選択します (下にスクロールする必要があるかもしれません)。  Azure Active Directory 管理センターの [マイ ダッシュボード] ページを表示する新しいブラウザー ページが開きます。 ダッシュボードのメイン ウィンドウには、組織の ID タイル (Contoso、テナント、Azure AD エディション)、ユーザーとグループのタイルなど、いくつかのタイルが表示されます。
 
