@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892463"
----
 <a name="---"></a><!---
 ---
 デモ: タイトル: 'Microsoft Defender for Cloud' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: Microsoft Defender for Cloud について説明する'

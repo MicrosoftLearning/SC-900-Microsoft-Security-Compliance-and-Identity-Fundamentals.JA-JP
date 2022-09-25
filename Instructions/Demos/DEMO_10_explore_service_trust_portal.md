@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892451"
----
 <a name="---"></a><!---
 ---
 デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
@@ -30,7 +22,7 @@ ms.locfileid: "147892451"
 
 1. アドレス バーに、「**aka.ms/STP**」と入力します。 これにより、Service Trust Portal のランディング ページが表示されます。 Service Trust Portal には、Microsoft のクラウド サービスとその中の顧客データを保護する制御とプロセスの実装に関する詳細が含まれています。
 
-1. Service Trust Portal のリソースの一部にアクセスするには、Microsoft クラウド サービス アカウントで認証済みユーザーとしてログインし、コンプライアンス資料に関する Microsoft 機密保持契約を確認して同意する必要があります。 Service Trust Portal のランディング ページの右上隅に、サインインするオプションが表示されます。  管理者の資格情報を使用して **サインイン** し、プロンプトが表示されたら、 **[同意する]** を選択して、コンプライアンス資料に関する Microsoft 機密保持契約に同意します。
+1. Service Trust Portal のリソースの一部にアクセスするには、Microsoft クラウド サービス アカウントで認証済みユーザーとしてログインし、コンプライアンス資料に関する Microsoft 機密保持契約を確認して同意する必要があります。 Service Trust Portal のランディング ページの右上隅に、サインインするオプションが表示されます。  管理者の資格情報を使用して**サインイン**し、プロンプトが表示されたら、 **[同意する]** を選択して、コンプライアンス資料に関する Microsoft 機密保持契約に同意します。
 
 1. ページを下にスクロールして、監査レポート、ドキュメントとリソースなどへのリンクに注意してください。  **[すべての監査レポートを表示]** を選択します。
 

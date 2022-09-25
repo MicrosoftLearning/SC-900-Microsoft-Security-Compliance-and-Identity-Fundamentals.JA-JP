@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892139"
----
 <a name="---"></a><!---
 ---
 デモ: タイトル: 'Azure AD のセルフサービス パスワード リセット (SSPR)' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: Azure AD のセルフサービス パスワード リセットについて説明する'

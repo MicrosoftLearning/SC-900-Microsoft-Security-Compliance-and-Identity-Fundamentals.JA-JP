@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892223"
----
 <a name="---"></a><!---
 ---
 ラボ: タイトル: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する ' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 4: Azure AD の ID の保護およびガバナンスの機能について説明する; ユニット 4: Privileged Identity Management の機能を説明する'
