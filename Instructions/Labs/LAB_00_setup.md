@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010603"
+---
 <a name="---"></a><!---
 ---
 ラボ: タイトル: 'セットアップ'
@@ -11,6 +19,8 @@
 このセットアップ ラボは、2 つの個別のタスクで構成されています。  1 番目のタスクは、ラボ環境に Azure Pass が含まれている場合にのみ適用され、推奨されます。 2 番目のタスクは、Microsoft 監査ログの有効化に重点を置いており、自分の環境で Azure Pass を使用するかどうかに関係なく、適用され、推奨されます。
 
 **推定時間**:5 ～ 10 分
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>セットアップ パート 1 - Azure Pass を使用する
 
