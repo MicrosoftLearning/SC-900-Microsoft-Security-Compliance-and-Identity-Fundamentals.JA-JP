@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 57c3c2d1e24acc7efaab97162e443a664dd76965
+ms.sourcegitcommit: 804b98d288b1db2c11a5154b4ded954e87f5ae55
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148119030"
+---
 <a name="---"></a><!---
 ---
 ラボ: タイトル: 'セットアップ'
@@ -19,7 +27,7 @@
 1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
 
 1. 管理者の資格情報でサインインします。
-    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID です)、**[次へ]** を選択します。
+    1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」と入力してから、**[次へ]** を選択します (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
     1. ラボ ホスティング プロバイダーから提供される管理者のパスワードを入力します。 **[サインイン]** を選択します。
     1. サインインしたままにするかどうかを尋ねられたら、**[はい]** を選択します。 これにより、[Microsoft 365 管理センター] ページにリダイレクトされます。
 

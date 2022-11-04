@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c4ec8d47505dc2feec2c42433278e03cc6f83740
+ms.sourcegitcommit: 804b98d288b1db2c11a5154b4ded954e87f5ae55
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148119037"
+---
 <a name="---"></a><!---
 ---
 ラボ: タイトル: 'セットアップ'
