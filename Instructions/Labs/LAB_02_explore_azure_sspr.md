@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-ラボ: タイトル: 'セルフサービス パスワード リセットによる Azure AD Authentication の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: Azure AD のセルフサービス パスワード リセットについて説明する'
+lab:
+  title: 'セルフサービス パスワード リセットによる Azure AD Authentication の詳細を確認する'
+  module: 'モジュール 2: Azure AD の認証機能について説明する'
 ---
---->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>ラボ:セルフサービス パスワード リセットによる Azure AD 認証の詳細を確認する
 

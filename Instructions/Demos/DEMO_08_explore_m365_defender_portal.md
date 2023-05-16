@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-デモ: タイトル: 'Microsoft 365 Defender ポータル' モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 7: Microsoft 365 Defender ポータルについて説明する'
+demo:
+  title: 'Microsoft 365 Defender ポータル'
+  module: 'モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する'
 ---
---->
+
 
 # <a name="demo-the-microsoft-365-defender-portal"></a>デモ:Microsoft 365 Defender ポータル
 

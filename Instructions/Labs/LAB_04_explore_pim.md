@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-ラボ: タイトル: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する ' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 4: Azure AD の ID の保護およびガバナンスの機能について説明する; ユニット 4: Privileged Identity Management の機能を説明する'
+lab:
+  title: 'Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する'
+  module: 'モジュール 4: Azure AD の ID の保護およびガバナンスの機能について説明する'
 ---
---->
+
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>ラボ:Privileged Identity Management による Azure AD の ID ガバナンスの詳細を確認する
 

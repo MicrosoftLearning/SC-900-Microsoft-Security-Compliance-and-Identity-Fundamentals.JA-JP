@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-ラボ: タイトル: 'Microsoft Defender for Cloud について調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: Microsoft Defender for Cloud について説明する'
+lab:
+  title: 'Microsoft Defender for Cloud について調べる'
+  module: 'モジュール 2: Azure のセキュリティ管理機能について説明する'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>ラボ:Microsoft Defender for Cloud について調べる
 

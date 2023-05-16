@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-デモ: タイトル: 'Microsoft Sentinel' ラーニング パス/モジュール/タイトル: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する; ユニット 3: 統合型の脅威管理を Microsoft Sentinel が提供するしくみを説明する'
+demo:
+  title: 'Microsoft Sentinel'
+  module: 'モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する'
 ---
---->
+
 
 # <a name="demo-microsoft-sentinel"></a>デモ:Microsoft Sentinel
 

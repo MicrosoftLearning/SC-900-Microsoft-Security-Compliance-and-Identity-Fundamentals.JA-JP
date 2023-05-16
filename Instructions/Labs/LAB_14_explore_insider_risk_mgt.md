@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-ラボ: タイトル: 'Microsoft Purview のインサイダー リスク管理を詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 4: Microsoft Purview のインサイダー リスク機能について説明する; ユニット 2: インサイダー リスク管理について説明する'
+lab:
+  title: 'Microsoft Purview のインサイダー リスク管理を詳細に確認する'
+  module: 'モジュール 4: Microsoft Purview のインサイダー リスク機能について説明する'
 ---
---->
+
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>ラボ:Microsoft Purview のインサイダー リスク管理を詳細に確認する
 
