@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Defender for Cloud Apps'
-  module: 'モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する'
+デモ: タイトル: Microsoft Defender for Cloud Apps ' モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 5: Microsoft Defender for Cloud Apps について説明する'
 ---
-
-
+--->
 
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>デモ:Microsoft Defender for Cloud Apps
 

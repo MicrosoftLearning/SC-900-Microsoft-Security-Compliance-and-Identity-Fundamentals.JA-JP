@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを詳細に確認する'
-  module: 'モジュール 2: Microsoft Purview のコンプライアンス管理機能について説明する'
+ラボ: タイトル: 'Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 2: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Microsoft Purview コンプライアンス ポータルについて説明する'
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>ラボ:Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを詳細に確認する
 

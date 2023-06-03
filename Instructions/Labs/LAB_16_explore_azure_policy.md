@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Azure Policy を探索する'
-  module: 'モジュール 6: Azure のリソース ガバナンス機能について説明する'
+ラボ: タイトル: 'Azure Policy を探索する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 6: Azure のリソース ガバナンス機能について説明する; ユニット 2: Azure Policy について説明する'
 ---
-
+--->
 
 # <a name="lab-explore-azure-policy"></a>ラボ:Azure Policy を探索する
 

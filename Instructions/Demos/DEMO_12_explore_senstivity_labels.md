@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Purview の秘密度ラベル'
-  module: 'モジュール 3: Microsoft Purview での情報保護とデータ ライフサイクル管理について説明する'
+デモ: タイトル: 'Microsoft Purview の秘密度ラベル' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 3: Microsoft Purview での情報保護とデータ ライフサイクル管理について説明する; ユニット 4: 秘密度ラベルについて説明する'
 ---
-
+--->
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>デモ:Microsoft Azure Purview の秘密度ラベルに関する
 

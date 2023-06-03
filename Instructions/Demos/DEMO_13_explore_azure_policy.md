@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure Policy'
-  module: 'モジュール 6: Azure のリソース ガバナンス機能について説明する'
+デモ: タイトル: 'Azure Policy' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 6: Azure のリソース ガバナンス機能について説明する; ユニット 2: Azure Policy について説明する'
 ---
-
+--->
 
 # <a name="demo-azure-policy"></a>デモ:Azure Policy
 

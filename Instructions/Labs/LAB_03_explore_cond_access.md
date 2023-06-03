@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Azure AD のアクセス管理機能について説明する'
-  module: 'Azure AD のアクセス管理機能について説明する'
+ラボ: ラーニング パス: 'Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する' モジュール: 'Azure AD のアクセス管理機能について説明する' ユニット: 'Azure AD の条件付きアクセスについて説明する'
 ---
-
+--->
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>ラボ: 条件付きアクセスを使った Azure AD のアクセス管理について調べる
 

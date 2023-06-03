@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Defender for Cloud'
-  module: 'モジュール 2: Azure のセキュリティ管理機能について説明する'
+デモ: タイトル: 'Microsoft Defender for Cloud' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: Microsoft Defender for Cloud について説明する'
 ---
-
+--->
 
 # <a name="demo-microsoft-defender-for-cloud"></a>デモ:Microsoft Defender for Cloud
 

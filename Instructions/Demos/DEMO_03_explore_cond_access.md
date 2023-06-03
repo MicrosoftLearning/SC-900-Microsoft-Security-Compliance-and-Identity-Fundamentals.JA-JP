@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD の条件付きアクセス'
-  module: 'モジュール 3: Azure AD のアクセス管理機能について説明する'
+デモ: タイトル: 'Azure AD の条件付きアクセス' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 3: Azure AD のアクセス管理機能について説明する; ユニット 2: Azure AD の条件付きアクセスについて説明する'
 ---
-
+--->
 
 # <a name="demo-azure-ad-conditional-access"></a>デモ: Azure AD の条件付きアクセス
 

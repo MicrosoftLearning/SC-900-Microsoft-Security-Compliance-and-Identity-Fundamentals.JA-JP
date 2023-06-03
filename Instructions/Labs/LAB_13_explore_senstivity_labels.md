@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft Purview の機密ラベルを詳細に確認する'
-  module: 'モジュール 3: Microsoft Purview での情報保護とデータ ライフサイクル管理について説明する'
+ラボ: タイトル: 'Microsoft Purview の機密ラベルを詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 3: Microsoft Purview での情報保護とデータ ライフサイクル管理について説明する; ユニット 4: 秘密度ラベルについて説明する'
 ---
-
+--->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>ラボ:Microsoft Purview の機密ラベルを詳細に確認する
 

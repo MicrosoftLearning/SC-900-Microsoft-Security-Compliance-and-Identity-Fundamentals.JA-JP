@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD のセルフサービス パスワード リセット (SSPR)'
-  module: 'モジュール 2: Azure AD の認証機能について説明する'
+デモ: タイトル: 'Azure AD のセルフサービス パスワード リセット (SSPR)' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: Azure AD のセルフサービス パスワード リセットについて説明する'
 ---
-
+--->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>デモ: Azure AD のセルフサービス パスワード リセット (SSPR)
 

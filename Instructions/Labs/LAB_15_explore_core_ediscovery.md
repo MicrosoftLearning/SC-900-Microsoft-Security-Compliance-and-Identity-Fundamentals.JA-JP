@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '電子情報開示 (Standard) ワークフローを調べる'
-  module: 'モジュール 5: Microsoft Purview の電子情報開示および監査機能について説明する'
+ラボ: タイトル: '電子情報開示 (Standard) ワークフローを調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 5: Microsoft Purview の電子情報開示および監査機能について説明する; ユニット 2: Microsoft 365 の電子情報開示ソリューションについて説明する'
 ---
-
+--->
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>ラボ:電子情報開示 (Standard) ワークフローを調べる
 

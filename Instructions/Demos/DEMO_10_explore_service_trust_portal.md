@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Service Trust Portal'
-  module: 'モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する'
+デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>デモ:Service Trust Portal
 

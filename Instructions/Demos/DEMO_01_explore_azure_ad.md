@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD ユーザー設定の詳細を確認する'
-  module: 'モジュール 1: Azure AD の基本的なサービスと ID の種類について説明する'
+デモ: タイトル: 'Azure AD ユーザー設定の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 1: Azure AD の基本的なサービスと ID の種類について説明する; ユニット 4: Azure AD の ID の種類について説明する'
 ---
-
-
+--->
 
 # <a name="demo-azure-ad-user-settings"></a>デモ: Azure AD ユーザー設定
 

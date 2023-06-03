@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft Sentinel の詳細'
-  module: 'モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する'
+ラボ: タイトル: 'Microsoft Sentinel の詳細' ラーニング パス/モジュール/タイトル: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する; ユニット 3: 統合型の脅威管理を Microsoft Sentinel が提供するしくみを説明する'
 ---
-
+--->
 
 # <a name="lab-explore-microsoft-sentinel"></a>ラボ:Microsoft Sentinel の詳細
 
