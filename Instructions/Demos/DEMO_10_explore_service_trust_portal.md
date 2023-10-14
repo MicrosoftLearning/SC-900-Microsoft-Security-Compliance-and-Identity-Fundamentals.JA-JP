@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
+デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft の Service Trust Portal とプライバシーの機能について説明する; ユニット 2: Service Trust Portal の詳細を確認する'
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>デモ:Service Trust Portal
+# デモ:Service Trust Portal
 
 このデモは、次の Learn コンテンツに対応しています。
 
 - ラーニング パス: Microsoft コンプライアンスの機能について説明する
-- モジュール: Microsoft のコンプライアンス管理機能について説明する
+- モジュール: Microsoft の Service Trust Portal とプライバシーの機能について説明する
 - ユニット: Service Trust Portal について調べる
 
-## <a name="demo-scenario"></a>デモ シナリオ
+## デモ シナリオ
 
 このデモでは、Service Trust Portal で利用できる機能とコンテンツについて説明します。 また、Microsoft のプライバシーに関する情報を表示するためのトラスト センターへの移動も含まれています。
 
-### <a name="demo-part-1"></a>デモ パート 1
+### デモ パート 1
 
 このパートでは、Service Trust Portal で利用できるさまざまな種類のコンテンツ、レポートへのアクセス方法、およびレポートをライブラリに保存する方法について学習者に説明します。
 
@@ -44,7 +44,7 @@
 
 1. Service Trust Portal のホーム ページに戻るには、ページの上部にある **Service Trust Portal** のリンクを選択します。
 
-### <a name="demo-part-2-optional"></a>デモ パート 2 (オプション)
+### デモ パート 2 (オプション)
 
 デモのこの部分では、トラスト センターを示して、Microsoft のプライバシーに関する情報に移動します。
 
@@ -54,8 +54,8 @@
 
 1. 新しいブラウザー ページが開き、Microsoft トラスト センターに移動します。ここで、プライバシーなどに関する詳細情報を確認できます。 このページの内容を確認し、さまざまなリンクから移動してみてください。
 
-1. 開いているブラウザー タブを閉じます。
+1. Service Trust Portal とトラスト センターの開いているブラウザー タブを閉じます。
 
-### <a name="review"></a>確認
+### 確認
 
 このデモでは、Service Trust Portal で利用できるいくつかのオプションと、将来参照するためにマイ ライブラリ機能を使用してドキュメントを保存する方法を詳細に確認しました。  さらに、Microsoft のプライバシーに関する情報にアクセスして確認するために、トラスト センターにアクセスしました。
