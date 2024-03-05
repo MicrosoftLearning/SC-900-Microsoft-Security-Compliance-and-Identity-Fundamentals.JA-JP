@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Sentinel' ラーニング パス/モジュール/タイトルについて調べる: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 3: Microsoft Sentinel のセキュリティ機能について説明する; ユニット 3: Microsoft Sentinel の脅威の検出および軽減機能について説明する'
+lab:
+  title: Microsoft Sentinel について調べる
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # ラボ: Microsoft Sentinel について調べる
 
@@ -14,7 +14,7 @@
 
 ## ラボのシナリオ
 
-Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。  また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。  この基本的なセットアップが完了したら、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップして、Microsoft Sentinel で使用できるいくつかの主要な機能について簡単に説明します。
+このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。  また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。  この基本的なセットアップが完了したら、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップして、Microsoft Sentinel で使用できるいくつかの主要な機能について簡単に説明します。
 
 **推定時間**:45 ～ 60 分
 
