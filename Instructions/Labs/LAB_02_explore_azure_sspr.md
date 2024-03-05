@@ -1,3 +1,9 @@
+---
+lab:
+  title: Microsoft Entra セルフサービス パスワード リセット
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 ラボ: タイトル: 'セルフサービス パスワード リセットによる Azure AD Authentication の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の一部である Azure Active Directory (Azure AD) の機能について説明する; モジュール 2: Azure AD の認証機能について説明する; ユニット 4: セルフサービス パスワードについて説明する'

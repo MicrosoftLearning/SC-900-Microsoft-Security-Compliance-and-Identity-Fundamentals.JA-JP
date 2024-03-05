@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: '電子情報開示 (Standard) ワークフローを調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 5: Microsoft Purview の電子情報開示および監査機能について説明する; ユニット 2: Microsoft 365 の電子情報開示ソリューションについて説明する'
+lab:
+  title: 電子情報開示 (Standard) ワークフローの詳細
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # ラボ: 電子情報開示 (Standard) ワークフローの詳細を確認する
 

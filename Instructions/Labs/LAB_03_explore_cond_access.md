@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: ラーニング パス: 'Microsoft Entra の機能について説明する' モジュール: 'Microsoft Entra ID のアクセス管理機能について説明する' ユニット: '条件付きアクセスについて説明する'
+lab:
+  title: Microsoft Entra 条件付きアクセス
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # ラボ: Microsoft Entra 条件付きアクセス
 

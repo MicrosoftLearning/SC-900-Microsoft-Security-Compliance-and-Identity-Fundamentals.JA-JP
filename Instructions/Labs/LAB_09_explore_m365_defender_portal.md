@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft 365 Defender ポータルを詳細に確認する' モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 7: Microsoft 365 Defender ポータルについて説明する'
+lab:
+  title: Microsoft 365 Defender ポータルを詳細に確認する
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # ラボ: Microsoft 365 Defender ポータルについて調べる
 

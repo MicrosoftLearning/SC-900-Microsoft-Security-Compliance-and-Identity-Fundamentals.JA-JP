@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Purview の機密ラベルを詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 3: Microsoft Purview での情報保護とデータ ライフサイクル管理について説明する; ユニット 4: 秘密度ラベルについて説明する'
+lab:
+  title: Microsoft Purview の秘密度ラベルについて調べる
+  module: Describe information protection and data lifecycle management in Microsoft Purview
 ---
---->
 
 # ラボ:Microsoft Purview の機密ラベルを詳細に確認する
 
