@@ -1,10 +1,10 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Entra ID ユーザー設定を調べる' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の機能について説明する; モジュール 1: Microsoft Entra ID の関数と ID の種類について説明する; ユニット 3: Microsoft Entra ID の種類について説明する'
+lab:
+  title: Microsoft Entra ID ユーザー設定を確認する
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# ラボ: Microsoft Entra ID の詳細を確認する
+# ラボ:Microsoft Entra ID ユーザー設定を確認する
 
 このラボは、次の Learn コンテンツに対応しています。
 
