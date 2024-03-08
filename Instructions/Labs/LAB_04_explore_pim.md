@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Privileged Identity Management について確認する。 ' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft Entra の機能について説明する; モジュール 4: モジュール: Microsoft Entra の ID の保護とガバナンスの機能について説明する; ユニット 4: Privileged Identity Management の機能について説明する'
+lab:
+  title: Privileged Identity Management について確認する
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # ラボ: Privileged Identity Management について確認する
 

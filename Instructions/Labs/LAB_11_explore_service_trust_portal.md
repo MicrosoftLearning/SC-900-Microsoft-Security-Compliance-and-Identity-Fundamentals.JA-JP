@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Service Trust Portal を詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Service Trust Portal を詳細に確認する'
+lab:
+  title: Service Trust Portal の詳細を確認する
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # ラボ: Service Trust Portal について調べる
 
