@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'セットアップ'
+lab:
+  title: ラボのセットアップ
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # ラボ: セットアップ
 

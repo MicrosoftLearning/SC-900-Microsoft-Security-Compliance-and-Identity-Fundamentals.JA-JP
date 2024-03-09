@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを詳細に確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 2: Microsoft Purview のコンプライアンス管理機能について説明する; ユニット 2: Microsoft Purview コンプライアンス ポータルについて説明する'
+lab:
+  title: Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを調べる
+  module: Describe the compliance management capabilities in Microsoft Purview
 ---
---->
 
 # ラボ: Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを調べる
 

@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Defender for Cloud の詳細を確認する' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 2: Azure のセキュリティ管理機能について説明する; ユニット 3: クラウド セキュリティ態勢管理について説明する'
+lab:
+  title: Microsoft Defender for Cloud について調べる
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # ラボ: Microsoft Defender for Cloud について調べる
 

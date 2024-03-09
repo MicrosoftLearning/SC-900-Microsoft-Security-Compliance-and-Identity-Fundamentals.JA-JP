@@ -1,8 +1,8 @@
-<!---
 ---
-ラボ: タイトル: 'Microsoft Defender for Cloud Apps について調べる 'モジュール: 'ラーニング パス: Microsoft セキュリティ ソリューションの機能について説明する; モジュール 4: Microsoft 365 の脅威に対する保護機能について説明する; ユニット 5: Microsoft Defender for Cloud Apps について説明する'
+lab:
+  title: Microsoft Defender for Cloud Apps について詳しく知る
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # ラボ: Microsoft Defender for Cloud Apps について調べる
 
