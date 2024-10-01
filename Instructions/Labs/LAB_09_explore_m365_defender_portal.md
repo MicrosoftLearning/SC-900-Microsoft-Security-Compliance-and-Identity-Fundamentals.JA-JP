@@ -16,7 +16,7 @@ lab:
 
 このラボでは、ランディング ページに表示されるコンテンツを詳しく説明して、Microsoft 365 Defender ポータルを詳細に確認します。 また、Microsoft の Extended Detection and Response (XDR) ソリューション (Microsoft Defender for Endpoints、および Microsoft Defender for Office 365 (電子メールとコラボレーション)) の一部である機能にすばやくアクセスできるナビゲーション パネルのオプションを詳細に確認します。  最後に、Microsoft セキュア スコアが組織のセキュリティ体制の改善にどのように役立つかを詳細に確認します。
 
-**推定時間**:10 ～ 15 分
+**推定時間**:30 分
 
 ### タスク 1
 

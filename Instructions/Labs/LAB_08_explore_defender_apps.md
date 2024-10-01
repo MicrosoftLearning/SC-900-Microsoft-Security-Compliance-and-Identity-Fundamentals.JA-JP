@@ -16,7 +16,7 @@ lab:
 
 このラボでは、Microsoft Defender for Cloud Apps の機能の詳細を確認します。  Cloud Discovery ダッシュボードで得られる情報、クラウド アプリ カタログ、検出事項の調査に利用できる機能、ポリシーを通して組織への影響を制御する方法について説明します。 注: 組織には、ユーザーベースのサブスクリプション サービスである Microsoft Defender for Cloud Apps を使用するためのライセンスが必要です。
 
-**推定時間**:15 ～ 20 分
+**推定時間**:30 分
 
 ### タスク 1 - Cloud Discovery の詳細を確認する
 
