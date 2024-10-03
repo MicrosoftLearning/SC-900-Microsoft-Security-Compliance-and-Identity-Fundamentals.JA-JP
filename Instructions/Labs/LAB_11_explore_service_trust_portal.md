@@ -1,15 +1,15 @@
 ---
 lab:
   title: Service Trust Portal の詳細を確認する
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # ラボ: Service Trust Portal について調べる
 
 このラボは、次の Learn コンテンツに対応しています。
 
-- ラーニング パス: Microsoft コンプライアンスの機能について説明する
-- モジュール: Microsoft のコンプライアンス管理機能について説明する
+- ラーニング パス: Microsoft Priva と Microsoft Purview の機能について説明する
+- モジュール: Microsoft の Service Trust Portal とプライバシーの機能について説明する
 - ユニット: Service Trust Portal について調べる
 
 ## ラボのシナリオ

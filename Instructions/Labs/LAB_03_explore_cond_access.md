@@ -1,7 +1,7 @@
 ---
 lab:
   title: Microsoft Entra 条件付きアクセス
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # ラボ: Microsoft Entra 条件付きアクセス
@@ -9,7 +9,7 @@ lab:
 このラボは、次の Learn コンテンツに対応しています。
 
 - ラーニング パス: Microsoft Entra の機能について説明する
-- モジュール: Microsoft Entra ID のアクセス管理機能について説明する
+- モジュール: Microsoft Entra のアクセス管理機能について説明する
 - ユニット: 条件付きアクセスについて説明する
 
 ## ラボのシナリオ

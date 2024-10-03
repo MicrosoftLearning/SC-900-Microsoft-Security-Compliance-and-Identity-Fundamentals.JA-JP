@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを調べる
-  module: Describe the compliance management capabilities in Microsoft Purview
+  title: Microsoft Purview ポータルとコンプライアンス マネージャーを探索する
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# ラボ: Microsoft Purview コンプライアンス ポータルとコンプライアンス マネージャーを調べる
+# ラボ: Microsoft Purview ポータルとコンプライアンス マネージャーを探索する
 
 このラボは、次の Learn コンテンツに対応しています。
 
-- ラーニング パス: Microsoft コンプライアンスの機能について説明する
-- モジュール: Microsoft Purview のコンプライアンス管理機能について説明する
-- ユニット: Microsoft Purview コンプライアンス ポータルについて説明する
+- ラーニング パス: Microsoft Priva と Microsoft Purview の機能について説明する
+- モジュール: Microsoft Purview のデータ コンプライアンス ソリューションについて説明する
+- ユニット: コンプライアンス マネージャーについて説明する
 
 ## ラボのシナリオ
 
