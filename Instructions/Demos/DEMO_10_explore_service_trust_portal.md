@@ -1,6 +1,6 @@
 <!---
 ---
-デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'ラーニング パス: Microsoft コンプライアンスの機能について説明する; モジュール 1: Microsoft の Service Trust Portal とプライバシーの機能について説明する; ユニット 2: Service Trust Portal の詳細を確認する'
+デモ: タイトル: 'Service Trust Portal' ラーニング パス/モジュール/ユニット: 'Microsoft Priva と Microsoft Purview の機能について説明する; モジュール 1: Microsoft の Service Trust Portal とプライバシーの機能について説明する; ユニット 2: Service Trust Portal を探索する'
 ---
 --->
 
