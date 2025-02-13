@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900: Microsoft セキュリティ、コンプライアンス、ID の基礎
 
 このリポジトリには、**SC-900T00: Microsoft セキュリティ、コンプライアンス、ID の基礎**に関するデモ スクリプトとラボ手順が含まれています。  デモ スクリプトとラボの両方は、事前構成された WWL M365 Enterprise 2019 SPE_E5 テナントへのアクセスを前提としています。これは、承認されたラボ ホスティング業者 (ALH) を通じて、ALH が提供する Azure サブスクリプションの使用により利用できます。 デモ スクリプトとラボの手順は、ユーザー自身の Microsoft 365 テナントと Azure サブスクリプションで実行できますが、一部の機能がユーザーの個人サブスクリプションで有効にならない場合があるため、保証されません。
