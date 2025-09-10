@@ -48,7 +48,7 @@ lab:
 
 1. ブラウザー タブで Microsoft Entra 管理センターのホーム ページを開きます。
 
-1. 左側のナビゲーション パネルで **[IF Governance]** を展開し、**[Privileged Identity Management]** を選択します。
+1. 左側のナビゲーション パネルで **[ID ガバナンス]** を展開し、**[Privileged Identity Management]** を選択します。
 
 1. [Privileged Identity Management クイック スタート] ページが表示されます。 [作業の開始] ページで情報を確認します。 メイン ウィンドウの [アクセスの管理] と表示されているところで、**[管理]** を選択します。
 
