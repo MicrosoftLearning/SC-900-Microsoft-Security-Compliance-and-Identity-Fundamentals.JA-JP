@@ -2,6 +2,10 @@
 lab:
   title: Service Trust Portal の詳細を確認する
   module: Describe Microsoft’s Service Trust portal and privacy capabilities
+  description: このラボでは、Service Trust Portal で利用できる機能とコンテンツを確認します。 また、Microsoft のプライバシーに関する情報を参照するために、トラスト センターにもアクセスします。
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # ラボ: Service Trust Portal について調べる

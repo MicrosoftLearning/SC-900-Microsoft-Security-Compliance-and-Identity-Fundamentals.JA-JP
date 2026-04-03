@@ -2,6 +2,15 @@
 lab:
   title: Microsoft Entra ID ユーザー設定を確認する
   module: Describe the function and identity types of Microsoft Entra ID
+  description: このラボでは、Microsoft Entra ID (以前は Azure Active Directory と呼ばれていました) にアクセスします。 さらに、ユーザーを作成し、ライセンスの追加を含む、さまざまな設定を構成します。
+  duration: 40 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Microsoft Entra
+    - Microsoft Entra ID
+    - Active Directory
 ---
 
 # ラボ:Microsoft Entra ID ユーザー設定を確認する
@@ -16,7 +25,7 @@ lab:
 
 このラボでは、Microsoft Entra ID (以前は Azure Active Directory と呼ばれていました) にアクセスします。  さらに、ユーザーを作成し、ライセンスの追加を含む、さまざまな設定を構成します。  
 
-**予測される所要時間**: 45 分
+**推定所要時間: 40 分**
 
 ### タスク 1
 

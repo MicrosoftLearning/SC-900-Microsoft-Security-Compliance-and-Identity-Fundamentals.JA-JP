@@ -2,6 +2,12 @@
 lab:
   title: Azure ネットワーク セキュリティ グループ (NSG) の詳細を確認する
   module: Describe the basic security capabilities in Azure
+  description: このラボでは、Azure のネットワーク セキュリティ グループの機能について説明します。 これを行うには、ネットワーク セキュリティ グループ (NSG) を作成し、既存の仮想マシン (VM) のインターフェイスに NSG を割り当てます。 構成したら、既定のインバウンドおよびアウトバウンド規則を確認し、新しい規則を作成して、それらの規則をテストします。 このラボでは、NSG で使用する VM が自動的に作成されるため、まず、その VM に関連付けられている情報の一部を表示します。
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure
 ---
 
 # ラボ: Azure ネットワーク セキュリティ グループ (NSG) について調べる

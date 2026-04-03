@@ -2,6 +2,12 @@
 lab:
   title: Microsoft Sentinel について調べる
   module: Describe the security capabilities of Microsoft Sentinel
+  description: このラボでは、Microsoft Sentinel インスタンスの作成プロセスについて一通り説明します。 また、Microsoft Sentinel をサポートするためにデプロイするリソースへのアクセスを保証するためのアクセス許可を設定します。 この基本的なセットアップが完了したら、Microsoft Sentinel をデータ ソースに接続する手順について説明し、ブックをセットアップして、Microsoft Sentinel で使用できるいくつかの主要な機能について簡単に説明します。
+  duration: 60 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Sentinel
 ---
 
 # ラボ: Microsoft Sentinel について調べる

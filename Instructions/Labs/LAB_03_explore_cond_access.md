@@ -2,6 +2,12 @@
 lab:
   title: Microsoft Entra 条件付きアクセス
   module: Describe the access management capabilities of Microsoft Entra
+  description: このラボでは、管理者およびユーザーの視点から、条件付きアクセス MFA の詳細を確認します。 管理者として、Microsoft 管理ポータルにアクセスするときにユーザーに多要素認証を要求するポリシーを作成します。 ユーザーの視点から、MFA に登録するためのプロセスを含む、条件付きアクセス ポリシーの影響を確認します。
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Entra
 ---
 
 # ラボ: Microsoft Entra 条件付きアクセス
