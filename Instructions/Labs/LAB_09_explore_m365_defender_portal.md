@@ -2,6 +2,13 @@
 lab:
   title: Microsoft Defender ポータルを探索する
   module: Describe the threat protection capabilities of Microsoft XDR
+  description: このラボでは、ランディング ページに表示されるコンテンツを確認しながら Microsoft Defender ポータルについて詳しく説明し、Microsoft の拡張検出と応答 (XDR) ソリューション、Microsoft Defender for Endpoint、Microsoft Defender for Office 365 の一部である機能 (メールとコラボレーション) にすばやくアクセスできるナビゲーション パネルのオプションを探索しました。 最後に、Microsoft Secure Score が組織のセキュリティ態勢の改善にどのように役立つかを詳細に確認しました。
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Defender
+    - Office 365
 ---
 
 # ラボ: Microsoft Defender ポータルを探索する
@@ -22,7 +29,7 @@ lab:
 
 Microsoft Defender のランディング ページを確認します。
 
-1. Microsoft Edge を開きます。 アドレス バーに、「**admin.microsoft.com**」と入力します。
+1. Microsoft Edge を開きます。 アドレス バーに「**`https://admin.microsoft.com`**」と入力します。
 
 1. 管理者の資格情報でサインインします。
     1. [サインイン] ウィンドウで、「**admin@WWLxZZZZZZ.onmicrosoft.com**」 (ZZZZZZ はラボ ホスティング プロバイダーから指定された固有のテナント ID) と入力してから、**[次へ]** を選択します。
